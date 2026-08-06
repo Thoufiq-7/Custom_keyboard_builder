@@ -1,0 +1,23 @@
+[
+  {
+    "id": "kb-01",
+    "name": "KeyForge Obsidian 75%",
+    "category": "Keyboard",
+    "price": 185.00,
+    "best_for": "gaming and programming, thocky sound, linear switches, compact size"
+  },
+  {
+    "id": "sw-01",
+    "name": "Gateron Silent Black Switches",
+    "category": "Switches",
+    "price": 25.00,
+    "best_for": "quiet office work, silent typing, heavy linear feel"
+  },
+  {
+    "id": "kc-01",
+    "name": "GMK Retro Keycaps",
+    "category": "Keycaps",
+    "price": 45.00,
+    "best_for": "vintage aesthetic, cherry profile, durable PBT"
+  }
+]

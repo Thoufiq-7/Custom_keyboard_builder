@@ -20,11 +20,10 @@ import {
 
 // Navigation Links Data
 const NAV_LINKS = [
-  { name: 'Home', path: '/' },
-  { name: 'Keyboards', path: '/keyboards', badge: 'Hot' },
-  { name: 'Switches', path: '/switches' },
-  { name: 'Keycaps', path: '/keycaps' },
-  { name: 'Accessories', path: '/accessories' },
+  { name: 'Keyboards', path: '/keyboards' },
+  { name: 'Mouse', path: '/mouse' },
+  { name: 'Desktop Mats', path: '/desktop_mats' },
+  { name: 'Cables', path: '/cables' },
 ];
 
 export default function Navbar({ wishlistCount = 2 }) {
@@ -78,15 +77,14 @@ export default function Navbar({ wishlistCount = 2 }) {
       <div className="fixed top-0 left-0 right-0 z-50 h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-blue-500 opacity-70" />
 
       <header
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
-          isScrolled
-            ? 'bg-[#09090B]/80 backdrop-blur-xl border-b border-white/10 shadow-2xl shadow-black/50 py-3'
-            : 'bg-[#09090B]/40 backdrop-blur-md border-b border-white/5 py-4'
-        }`}
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${isScrolled
+          ? 'bg-[#09090B]/80 backdrop-blur-xl border-b border-white/10 shadow-2xl shadow-black/50 py-3'
+          : 'bg-[#09090B]/40 backdrop-blur-md border-b border-white/5 py-4'
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between gap-4">
-            
+
             {/* 1. BRAND LOGO */}
             <Link to="/" className="flex items-center gap-3 group">
               <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-violet-600 via-purple-600 to-blue-600 p-[1px] transition-transform duration-300 group-hover:scale-105 shadow-lg shadow-violet-500/20">
@@ -110,12 +108,11 @@ export default function Navbar({ wishlistCount = 2 }) {
                   <Link
                     key={link.name}
                     to={link.path}
-                    className={`relative px-4 py-2 text-sm font-medium transition-colors duration-200 flex items-center gap-1.5 ${
-                      isActive ? 'text-white' : 'text-gray-400 hover:text-white'
-                    }`}
+                    className={`relative px-4 py-2 text-sm font-medium transition-colors duration-200 flex items-center gap-1.5 ${isActive ? 'text-white' : 'text-gray-400 hover:text-white'
+                      }`}
                   >
                     {link.name}
-                    
+
                     {/* Optional Highlight Badge */}
                     {link.badge && (
                       <span className="px-1.5 py-0.5 text-[9px] font-extrabold uppercase bg-violet-500/20 text-violet-300 border border-violet-500/30 rounded-full tracking-wider">
@@ -143,7 +140,7 @@ export default function Navbar({ wishlistCount = 2 }) {
 
             {/* 3. RIGHT UTILITIES */}
             <div className="flex items-center gap-2 sm:gap-3">
-              
+
               <button
                 onClick={() => setIsSearchOpen(true)}
                 aria-label="Search"
@@ -230,7 +227,7 @@ export default function Navbar({ wishlistCount = 2 }) {
                   {isProfileOpen && (
                     <>
                       <div className="fixed inset-0 z-10" onClick={() => setIsProfileOpen(false)} />
-                      
+
                       <motion.div
                         initial={{ opacity: 0, y: 10, scale: 0.95 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -385,11 +382,10 @@ export default function Navbar({ wishlistCount = 2 }) {
                         key={link.name}
                         to={link.path}
                         onClick={() => setIsMobileMenuOpen(false)}
-                        className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-medium transition-colors ${
-                          isActive
-                            ? 'bg-violet-600/20 text-white border border-violet-500/30'
-                            : 'text-gray-300 hover:bg-white/5 hover:text-white'
-                        }`}
+                        className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-medium transition-colors ${isActive
+                          ? 'bg-violet-600/20 text-white border border-violet-500/30'
+                          : 'text-gray-300 hover:bg-white/5 hover:text-white'
+                          }`}
                       >
                         <span>{link.name}</span>
                         {link.badge && (

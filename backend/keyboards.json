@@ -1,23 +1,152 @@
 [
   {
-    "id": "kb-01",
-    "name": "KeyForge Obsidian 75%",
+    "id": "kb-001",
+    "name": "Keychron K8 Pro",
     "category": "Keyboard",
-    "price": 185.00,
-    "best_for": "gaming and programming, thocky sound, linear switches, compact size"
+    "brand": "Keychron",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 109.99,
+    "description": "The Keychron K8 Pro is a hot-swappable TKL mechanical keyboard supporting both QMK/VIA customization and dual-mode Bluetooth 5.1 or wired connectivity. Its south-facing RGB backlight and gasket-mounted plate deliver a comfortable typing feel suited to both office work and casual gaming.",
+    "best_for": [
+      "hybrid work and gaming",
+      "custom QMK/VIA remapping"
+    ],
+    "image": "/src/assets/keyboards/kb-001.jpg"
   },
   {
-    "id": "sw-01",
-    "name": "Gateron Silent Black Switches",
-    "category": "Switches",
-    "price": 25.00,
-    "best_for": "quiet office work, silent typing, heavy linear feel"
+    "id": "kb-002",
+    "name": "Logitech MX Keys",
+    "category": "Keyboard",
+    "brand": "Logitech",
+    "layout": "Full-Size",
+    "switch_type": "Tactile",
+    "price": 99.99,
+    "description": "The Logitech MX Keys is a low-profile wireless keyboard with scissor-switch keys engineered for a stable, quiet, and precise typing feel. Smart illumination and multi-device Easy-Switch pairing make it a go-to choice for professionals working across several computers.",
+    "best_for": [
+      "office productivity",
+      "multi-device workflows"
+    ],
+    "image": "/src/assets/keyboards/kb-002.jpg"
   },
   {
-    "id": "kc-01",
-    "name": "GMK Retro Keycaps",
-    "category": "Keycaps",
-    "price": 45.00,
-    "best_for": "vintage aesthetic, cherry profile, durable PBT"
+    "id": "kb-003",
+    "name": "Razer Huntsman V3 Pro",
+    "category": "Keyboard",
+    "brand": "Razer",
+    "layout": "Full-Size",
+    "switch_type": "Linear",
+    "price": 249.99,
+    "description": "The Razer Huntsman V3 Pro uses analog optical switches with adjustable actuation points down to 0.1mm, giving competitive players granular control over sensitivity. Its aluminum top plate and per-key RGB lighting combine premium build quality with elite-tier responsiveness.",
+    "best_for": [
+      "competitive esports gaming",
+      "adjustable actuation tuning"
+    ],
+    "image": "/src/assets/keyboards/kb-003.jpg"
+  },
+  {
+    "id": "kb-004",
+    "name": "Corsair K70 RGB Pro",
+    "category": "Keyboard",
+    "brand": "Corsair",
+    "layout": "Full-Size",
+    "switch_type": "Linear",
+    "price": 179.99,
+    "description": "The Corsair K70 RGB Pro pairs a durable aluminum frame with hot-swappable Corsair mechanical switches and per-key RGB lighting powered by iCUE. Its 8,000Hz polling rate and dedicated media controls make it a well-rounded pick for gamers who also value build quality.",
+    "best_for": [
+      "high-refresh gaming",
+      "hot-swap switch customization"
+    ],
+    "image": "/src/assets/keyboards/kb-004.jpg"
+  },
+  {
+    "id": "kb-005",
+    "name": "ASUS ROG Azoth",
+    "category": "Keyboard",
+    "brand": "ASUS ROG",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 249.99,
+    "description": "The ASUS ROG Azoth is a premium 75% gasket-mounted keyboard with triple-layer sound dampening foam, hot-swappable switches, and a small OLED display for quick settings access. Wireless 2.4GHz, Bluetooth, and wired modes give it enthusiast-grade flexibility in a compact form factor.",
+    "best_for": [
+      "enthusiast custom builds",
+      "compact desk setups"
+    ],
+    "image": "/src/assets/keyboards/kb-005.jpg"
+  },
+  {
+    "id": "kb-006",
+    "name": "HyperX Alloy Origins Core",
+    "category": "Keyboard",
+    "brand": "HyperX",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 89.99,
+    "description": "The HyperX Alloy Origins Core features a full aluminum body with HyperX-designed mechanical switches rated for 80 million keystrokes. Its compact TKL layout and per-key RGB lighting make it a durable, space-saving option for gaming desks.",
+    "best_for": [
+      "space-saving gaming setups",
+      "durable daily use"
+    ],
+    "image": "/src/assets/keyboards/kb-006.jpg"
+  },
+  {
+    "id": "kb-007",
+    "name": "SteelSeries Apex Pro TKL",
+    "category": "Keyboard",
+    "brand": "SteelSeries",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 219.99,
+    "description": "The SteelSeries Apex Pro TKL uses adjustable OmniPoint 2.0 magnetic switches, letting each key's actuation point be tuned individually via software. A precision OLED smart display and aircraft-grade aluminum frame round out a keyboard built for performance-focused gamers.",
+    "best_for": [
+      "adjustable-actuation gaming",
+      "competitive FPS play"
+    ],
+    "image": "/src/assets/keyboards/kb-007.jpg"
+  },
+  {
+    "id": "kb-008",
+    "name": "Ducky One 3 Daybreak",
+    "category": "Keyboard",
+    "brand": "Ducky",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 109.99,
+    "description": "The Ducky One 3 Daybreak brings a vibrant two-tone colorway to a double-shot PBT keycap set paired with Cherry MX switches for reliable, satisfying feedback. Its hot-swappable PCB and per-key RGB lighting make it a popular canvas for enthusiast customization.",
+    "best_for": [
+      "enthusiast keycap modding",
+      "colorful desk aesthetics"
+    ],
+    "image": "/src/assets/keyboards/kb-008.jpg"
+  },
+  {
+    "id": "kb-009",
+    "name": "Royal Kludge RK84",
+    "category": "Keyboard",
+    "brand": "Royal Kludge",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 79.99,
+    "description": "The Royal Kludge RK84 is a budget-friendly 75% hot-swappable keyboard offering tri-mode connectivity across Bluetooth, 2.4GHz wireless, and wired USB-C. Its compact layout and RGB backlighting make it an accessible entry point for switching to mechanical keyboards.",
+    "best_for": [
+      "budget mechanical upgrades",
+      "tri-mode wireless flexibility"
+    ],
+    "image": "/src/assets/keyboards/kb-009.jpg"
+  },
+  {
+    "id": "kb-010",
+    "name": "NuPhy Air75 V2",
+    "category": "Keyboard",
+    "brand": "NuPhy",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 119.99,
+    "description": "The NuPhy Air75 V2 is an ultra-slim low-profile mechanical keyboard combining a machined aluminum frame with NuPhy's low-profile switches for a fast, quiet typing feel. Tri-mode wireless connectivity and a portable design make it ideal for minimalist, travel-friendly setups.",
+    "best_for": [
+      "portable minimalist setups",
+      "low-profile typing feel"
+    ],
+    "image": "/src/assets/keyboards/kb-010.jpg"
   }
 ]

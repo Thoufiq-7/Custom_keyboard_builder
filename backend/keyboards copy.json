@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "kb-001",
+    "name": "EPOMAKER Q1 TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "EPOMAKER",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 49.84,
+    "description": "The EPOMAKER Q1 TKL Linear Keyboard is a TKL mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features QMK/VIA support, south-facing RGB LEDs, and double-shot PBT keycaps. Ideal for long-form writing and transcription and custom modding enthusiasts, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "custom modding enthusiasts"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-002",
+    "name": "Royal Kludge Mono 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Royal Kludge",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 108.33,
+    "description": "The Royal Kludge Mono 75% Clicky Keyboard is a 75% mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features hot-swappable PCB, double-shot PBT keycaps, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for esports FPS titles and custom modding enthusiasts, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "custom modding enthusiasts"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-003",
+    "name": "Zoom65 Origin 60% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Zoom65",
+    "layout": "60%",
+    "switch_type": "Linear",
+    "price": 336.73,
+    "description": "The Zoom65 Origin 60% Linear Keyboard is a 60% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features screw-in stabilizers, polling rate up to 8000Hz, and rotary volume knob. Ideal for programming marathons and streaming and content creation, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "programming marathons",
+      "streaming and content creation"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-004",
+    "name": "Ajazz Pro 60% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "60%",
+    "switch_type": "Tactile",
+    "price": 206.22,
+    "description": "The Ajazz Pro 60% Tactile Keyboard is a 60% mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features polling rate up to 8000Hz, hall-effect magnetic switches, and rotary volume knob. Ideal for competitive gaming and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "competitive gaming",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-005",
+    "name": "Wooting K8 TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Wooting",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 279.64,
+    "description": "The Wooting K8 TKL Clicky Keyboard is a TKL mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features polling rate up to 8000Hz, wireless Bluetooth 5.1 + 2.4GHz connectivity, and south-facing RGB LEDs. Ideal for competitive gaming and streaming and content creation, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "competitive gaming",
+      "streaming and content creation"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-006",
+    "name": "Royal Kludge Aurora 60% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Royal Kludge",
+    "layout": "60%",
+    "switch_type": "Tactile",
+    "price": 104.94,
+    "description": "The Royal Kludge Aurora 60% Tactile Keyboard is a 60% mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features sound-dampening foam layers, polling rate up to 8000Hz, and QMK/VIA support. Ideal for travel and portability and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "travel and portability",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-007",
+    "name": "Drop K8 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Drop",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 346.74,
+    "description": "The Drop K8 75% Clicky Keyboard is a 75% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features wireless Bluetooth 5.1 + 2.4GHz connectivity, QMK/VIA support, and sound-dampening foam layers. Ideal for custom modding enthusiasts and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-008",
+    "name": "Monsgeek Aurora TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 105.39,
+    "description": "The Monsgeek Aurora TKL Linear Keyboard is a TKL mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features hot-swappable PCB, polling rate up to 8000Hz, and screw-in stabilizers. Ideal for minimalist desk setups and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-009",
+    "name": "Zoom65 Halo 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Zoom65",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 116.44,
+    "description": "The Zoom65 Halo 75% Clicky Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features screw-in stabilizers, sound-dampening foam layers, and QMK/VIA support. Ideal for minimalist desk setups and programming marathons, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "programming marathons"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-010",
+    "name": "Monsgeek Onyx TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 197.94,
+    "description": "The Monsgeek Onyx TKL Clicky Keyboard is a TKL mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features screw-in stabilizers, hall-effect magnetic switches, and polling rate up to 8000Hz. Ideal for streaming and content creation and programming marathons, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "programming marathons"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-011",
+    "name": "Royal Kludge V1 60% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Royal Kludge",
+    "layout": "60%",
+    "switch_type": "Linear",
+    "price": 224.72,
+    "description": "The Royal Kludge V1 60% Linear Keyboard is a 60% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features QMK/VIA support, screw-in stabilizers, and south-facing RGB LEDs. Ideal for custom modding enthusiasts and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-012",
+    "name": "Owlab Slate TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Owlab",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 130.98,
+    "description": "The Owlab Slate TKL Clicky Keyboard is a TKL mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features south-facing RGB LEDs, double-shot PBT keycaps, and rotary volume knob. Ideal for travel and portability and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "travel and portability",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-013",
+    "name": "Varmilo Ember 60% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Varmilo",
+    "layout": "60%",
+    "switch_type": "Clicky",
+    "price": 309.85,
+    "description": "The Varmilo Ember 60% Clicky Keyboard is a 60% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features rotary volume knob, double-shot PBT keycaps, and QMK/VIA support. Ideal for esports FPS titles and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-014",
+    "name": "Leopold Slate 75% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Leopold",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 191.46,
+    "description": "The Leopold Slate 75% Linear Keyboard is a 75% mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features QMK/VIA support, double-shot PBT keycaps, and hot-swappable PCB. Ideal for long-form writing and transcription and travel and portability, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "travel and portability"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-015",
+    "name": "EPOMAKER Nomad TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "EPOMAKER",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 343.17,
+    "description": "The EPOMAKER Nomad TKL Linear Keyboard is a TKL mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features wireless Bluetooth 5.1 + 2.4GHz connectivity, south-facing RGB LEDs, and double-shot PBT keycaps. Ideal for silent shared-office use and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-016",
+    "name": "Monsgeek Max 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 338.94,
+    "description": "The Monsgeek Max 75% Clicky Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features double-shot PBT keycaps, QMK/VIA support, and rotary volume knob. Ideal for esports FPS titles and custom modding enthusiasts, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "custom modding enthusiasts"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-017",
+    "name": "Monsgeek Mono TKL Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 109.65,
+    "description": "The Monsgeek Mono TKL Tactile Keyboard is a TKL mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features polling rate up to 8000Hz, sound-dampening foam layers, and double-shot PBT keycaps. Ideal for office typing and productivity and streaming and content creation, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "office typing and productivity",
+      "streaming and content creation"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-018",
+    "name": "Ajazz Q1 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 320.67,
+    "description": "The Ajazz Q1 75% Clicky Keyboard is a 75% mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features hot-swappable PCB, south-facing RGB LEDs, and hall-effect magnetic switches. Ideal for streaming and content creation and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-019",
+    "name": "Ajazz K8 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 115.32,
+    "description": "The Ajazz K8 75% Tactile Keyboard is a 75% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features sound-dampening foam layers, wireless Bluetooth 5.1 + 2.4GHz connectivity, and QMK/VIA support. Ideal for long-form writing and transcription and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-020",
+    "name": "KBDfans Cascade 75% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "KBDfans",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 307.78,
+    "description": "The KBDfans Cascade 75% Linear Keyboard is a 75% mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features screw-in stabilizers, polling rate up to 8000Hz, and hall-effect magnetic switches. Ideal for custom modding enthusiasts and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-021",
+    "name": "GMMK Pro 60% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "GMMK",
+    "layout": "60%",
+    "switch_type": "Tactile",
+    "price": 206.24,
+    "description": "The GMMK Pro 60% Tactile Keyboard is a 60% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features polling rate up to 8000Hz, south-facing RGB LEDs, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for streaming and content creation and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-022",
+    "name": "Ducky Cascade 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Ducky",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 55.67,
+    "description": "The Ducky Cascade 75% Tactile Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features wireless Bluetooth 5.1 + 2.4GHz connectivity, south-facing RGB LEDs, and sound-dampening foam layers. Ideal for esports FPS titles and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-023",
+    "name": "Monsgeek Q1 60% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "60%",
+    "switch_type": "Linear",
+    "price": 319.75,
+    "description": "The Monsgeek Q1 60% Linear Keyboard is a 60% mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features screw-in stabilizers, sound-dampening foam layers, and double-shot PBT keycaps. Ideal for streaming and content creation and custom modding enthusiasts, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "custom modding enthusiasts"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-024",
+    "name": "Varmilo Vector 60% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Varmilo",
+    "layout": "60%",
+    "switch_type": "Tactile",
+    "price": 87.98,
+    "description": "The Varmilo Vector 60% Tactile Keyboard is a 60% mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features sound-dampening foam layers, rotary volume knob, and screw-in stabilizers. Ideal for esports FPS titles and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-025",
+    "name": "Leopold Mono 60% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Leopold",
+    "layout": "60%",
+    "switch_type": "Clicky",
+    "price": 221.09,
+    "description": "The Leopold Mono 60% Clicky Keyboard is a 60% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features double-shot PBT keycaps, hot-swappable PCB, and polling rate up to 8000Hz. Ideal for competitive gaming and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "competitive gaming",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-026",
+    "name": "IQUNIX Slate 75% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "IQUNIX",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 249.31,
+    "description": "The IQUNIX Slate 75% Linear Keyboard is a 75% mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features south-facing RGB LEDs, QMK/VIA support, and hall-effect magnetic switches. Ideal for long-form writing and transcription and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-027",
+    "name": "Akko Vector 60% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Akko",
+    "layout": "60%",
+    "switch_type": "Clicky",
+    "price": 138.06,
+    "description": "The Akko Vector 60% Clicky Keyboard is a 60% mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features hall-effect magnetic switches, hot-swappable PCB, and south-facing RGB LEDs. Ideal for custom modding enthusiasts and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-028",
+    "name": "Drop Mono TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Drop",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 327.99,
+    "description": "The Drop Mono TKL Linear Keyboard is a TKL mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features screw-in stabilizers, QMK/VIA support, and rotary volume knob. Ideal for silent shared-office use and travel and portability, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "travel and portability"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-029",
+    "name": "Royal Kludge Q1 Full-Size Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Royal Kludge",
+    "layout": "Full-Size",
+    "switch_type": "Clicky",
+    "price": 81.05,
+    "description": "The Royal Kludge Q1 Full-Size Clicky Keyboard is a Full-Size mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features south-facing RGB LEDs, hall-effect magnetic switches, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for esports FPS titles and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-030",
+    "name": "Angry Miao K8 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Angry Miao",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 42.42,
+    "description": "The Angry Miao K8 75% Tactile Keyboard is a 75% mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features QMK/VIA support, sound-dampening foam layers, and rotary volume knob. Ideal for long-form writing and transcription and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-031",
+    "name": "Monsgeek Zenith 60% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "60%",
+    "switch_type": "Linear",
+    "price": 227.49,
+    "description": "The Monsgeek Zenith 60% Linear Keyboard is a 60% mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features south-facing RGB LEDs, hall-effect magnetic switches, and QMK/VIA support. Ideal for minimalist desk setups and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-032",
+    "name": "Ajazz Mono TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 53.66,
+    "description": "The Ajazz Mono TKL Clicky Keyboard is a TKL mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features rotary volume knob, hot-swappable PCB, and south-facing RGB LEDs. Ideal for custom modding enthusiasts and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-033",
+    "name": "Ajazz Max TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 74.67,
+    "description": "The Ajazz Max TKL Linear Keyboard is a TKL mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features sound-dampening foam layers, double-shot PBT keycaps, and screw-in stabilizers. Ideal for esports FPS titles and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-034",
+    "name": "Ducky Onyx 60% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Ducky",
+    "layout": "60%",
+    "switch_type": "Tactile",
+    "price": 135.55,
+    "description": "The Ducky Onyx 60% Tactile Keyboard is a 60% mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features double-shot PBT keycaps, QMK/VIA support, and screw-in stabilizers. Ideal for programming marathons and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "programming marathons",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-035",
+    "name": "GMMK Nomad 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "GMMK",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 326.98,
+    "description": "The GMMK Nomad 75% Clicky Keyboard is a 75% mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features south-facing RGB LEDs, polling rate up to 8000Hz, and screw-in stabilizers. Ideal for long-form writing and transcription and programming marathons, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "programming marathons"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-036",
+    "name": "Akko SE 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Akko",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 89.34,
+    "description": "The Akko SE 75% Tactile Keyboard is a 75% mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features QMK/VIA support, polling rate up to 8000Hz, and screw-in stabilizers. Ideal for streaming and content creation and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-037",
+    "name": "EPOMAKER Vector 60% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "EPOMAKER",
+    "layout": "60%",
+    "switch_type": "Tactile",
+    "price": 109.1,
+    "description": "The EPOMAKER Vector 60% Tactile Keyboard is a 60% mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features wireless Bluetooth 5.1 + 2.4GHz connectivity, sound-dampening foam layers, and polling rate up to 8000Hz. Ideal for minimalist desk setups and streaming and content creation, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "streaming and content creation"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-038",
+    "name": "NuPhy Vector TKL Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "NuPhy",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 331.15,
+    "description": "The NuPhy Vector TKL Tactile Keyboard is a TKL mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features rotary volume knob, polling rate up to 8000Hz, and screw-in stabilizers. Ideal for esports FPS titles and travel and portability, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "travel and portability"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-039",
+    "name": "EPOMAKER Origin 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "EPOMAKER",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 175.27,
+    "description": "The EPOMAKER Origin 75% Clicky Keyboard is a 75% mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features hot-swappable PCB, south-facing RGB LEDs, and screw-in stabilizers. Ideal for travel and portability and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "travel and portability",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-040",
+    "name": "IQUNIX Pro Full-Size Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "IQUNIX",
+    "layout": "Full-Size",
+    "switch_type": "Clicky",
+    "price": 326.92,
+    "description": "The IQUNIX Pro Full-Size Clicky Keyboard is a Full-Size mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features rotary volume knob, hot-swappable PCB, and screw-in stabilizers. Ideal for competitive gaming and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "competitive gaming",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-041",
+    "name": "Monsgeek Mono TKL Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 135.87,
+    "description": "The Monsgeek Mono TKL Tactile Keyboard is a TKL mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features polling rate up to 8000Hz, hall-effect magnetic switches, and south-facing RGB LEDs. Ideal for minimalist desk setups and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-042",
+    "name": "Mode Designs Halo Full-Size Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Mode Designs",
+    "layout": "Full-Size",
+    "switch_type": "Clicky",
+    "price": 249.96,
+    "description": "The Mode Designs Halo Full-Size Clicky Keyboard is a Full-Size mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features double-shot PBT keycaps, QMK/VIA support, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for custom modding enthusiasts and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-043",
+    "name": "Varmilo Nova TKL Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Varmilo",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 283.58,
+    "description": "The Varmilo Nova TKL Tactile Keyboard is a TKL mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features hot-swappable PCB, rotary volume knob, and double-shot PBT keycaps. Ideal for streaming and content creation and custom modding enthusiasts, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "custom modding enthusiasts"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-044",
+    "name": "Neo80 Halo Full-Size Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Neo80",
+    "layout": "Full-Size",
+    "switch_type": "Tactile",
+    "price": 127.96,
+    "description": "The Neo80 Halo Full-Size Tactile Keyboard is a Full-Size mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features wireless Bluetooth 5.1 + 2.4GHz connectivity, double-shot PBT keycaps, and sound-dampening foam layers. Ideal for programming marathons and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "programming marathons",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-045",
+    "name": "Neo80 Halo 60% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Neo80",
+    "layout": "60%",
+    "switch_type": "Linear",
+    "price": 54.32,
+    "description": "The Neo80 Halo 60% Linear Keyboard is a 60% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features rotary volume knob, wireless Bluetooth 5.1 + 2.4GHz connectivity, and double-shot PBT keycaps. Ideal for programming marathons and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "programming marathons",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-046",
+    "name": "KBDfans Nova 60% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "KBDfans",
+    "layout": "60%",
+    "switch_type": "Tactile",
+    "price": 115.63,
+    "description": "The KBDfans Nova 60% Tactile Keyboard is a 60% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features hall-effect magnetic switches, wireless Bluetooth 5.1 + 2.4GHz connectivity, and screw-in stabilizers. Ideal for silent shared-office use and custom modding enthusiasts, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "custom modding enthusiasts"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-047",
+    "name": "Keychron Pro Full-Size Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Keychron",
+    "layout": "Full-Size",
+    "switch_type": "Linear",
+    "price": 324.41,
+    "description": "The Keychron Pro Full-Size Linear Keyboard is a Full-Size mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features double-shot PBT keycaps, sound-dampening foam layers, and hot-swappable PCB. Ideal for esports FPS titles and streaming and content creation, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "streaming and content creation"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-048",
+    "name": "EPOMAKER Ember 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "EPOMAKER",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 172.28,
+    "description": "The EPOMAKER Ember 75% Tactile Keyboard is a 75% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features double-shot PBT keycaps, hall-effect magnetic switches, and polling rate up to 8000Hz. Ideal for silent shared-office use and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-049",
+    "name": "Monsgeek Ember 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 190.22,
+    "description": "The Monsgeek Ember 75% Clicky Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features sound-dampening foam layers, rotary volume knob, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for minimalist desk setups and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-050",
+    "name": "Akko Origin Full-Size Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Akko",
+    "layout": "Full-Size",
+    "switch_type": "Linear",
+    "price": 316.83,
+    "description": "The Akko Origin Full-Size Linear Keyboard is a Full-Size mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features rotary volume knob, wireless Bluetooth 5.1 + 2.4GHz connectivity, and hall-effect magnetic switches. Ideal for travel and portability and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "travel and portability",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-051",
+    "name": "Royal Kludge Max 75% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Royal Kludge",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 142.56,
+    "description": "The Royal Kludge Max 75% Linear Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features QMK/VIA support, wireless Bluetooth 5.1 + 2.4GHz connectivity, and south-facing RGB LEDs. Ideal for custom modding enthusiasts and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-052",
+    "name": "Owlab Cascade 60% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Owlab",
+    "layout": "60%",
+    "switch_type": "Linear",
+    "price": 332.24,
+    "description": "The Owlab Cascade 60% Linear Keyboard is a 60% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features screw-in stabilizers, hot-swappable PCB, and hall-effect magnetic switches. Ideal for silent shared-office use and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-053",
+    "name": "Leopold Vector Full-Size Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Leopold",
+    "layout": "Full-Size",
+    "switch_type": "Clicky",
+    "price": 175.1,
+    "description": "The Leopold Vector Full-Size Clicky Keyboard is a Full-Size mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features double-shot PBT keycaps, wireless Bluetooth 5.1 + 2.4GHz connectivity, and sound-dampening foam layers. Ideal for streaming and content creation and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-054",
+    "name": "Keychron Vector TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Keychron",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 48.35,
+    "description": "The Keychron Vector TKL Clicky Keyboard is a TKL mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features screw-in stabilizers, QMK/VIA support, and sound-dampening foam layers. Ideal for programming marathons and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "programming marathons",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-055",
+    "name": "Wooting Terra 60% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Wooting",
+    "layout": "60%",
+    "switch_type": "Linear",
+    "price": 120.64,
+    "description": "The Wooting Terra 60% Linear Keyboard is a 60% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features screw-in stabilizers, QMK/VIA support, and sound-dampening foam layers. Ideal for programming marathons and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "programming marathons",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-056",
+    "name": "Ajazz Mono Full-Size Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "Full-Size",
+    "switch_type": "Tactile",
+    "price": 185.79,
+    "description": "The Ajazz Mono Full-Size Tactile Keyboard is a Full-Size mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features screw-in stabilizers, rotary volume knob, and hall-effect magnetic switches. Ideal for minimalist desk setups and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-057",
+    "name": "Monsgeek V1 TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 300.15,
+    "description": "The Monsgeek V1 TKL Linear Keyboard is a TKL mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features south-facing RGB LEDs, hot-swappable PCB, and double-shot PBT keycaps. Ideal for streaming and content creation and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-058",
+    "name": "Neo80 Max 75% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Neo80",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 92.0,
+    "description": "The Neo80 Max 75% Linear Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features south-facing RGB LEDs, wireless Bluetooth 5.1 + 2.4GHz connectivity, and sound-dampening foam layers. Ideal for minimalist desk setups and travel and portability, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "travel and portability"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-059",
+    "name": "Neo80 Pro 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Neo80",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 162.95,
+    "description": "The Neo80 Pro 75% Tactile Keyboard is a 75% mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features hall-effect magnetic switches, hot-swappable PCB, and rotary volume knob. Ideal for long-form writing and transcription and custom modding enthusiasts, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "custom modding enthusiasts"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-060",
+    "name": "NuPhy K8 75% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "NuPhy",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 172.79,
+    "description": "The NuPhy K8 75% Linear Keyboard is a 75% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features rotary volume knob, south-facing RGB LEDs, and hot-swappable PCB. Ideal for travel and portability and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "travel and portability",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-061",
+    "name": "Angry Miao K8 TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Angry Miao",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 259.26,
+    "description": "The Angry Miao K8 TKL Linear Keyboard is a TKL mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features sound-dampening foam layers, south-facing RGB LEDs, and screw-in stabilizers. Ideal for travel and portability and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "travel and portability",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-062",
+    "name": "Mode Designs SE TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Mode Designs",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 139.9,
+    "description": "The Mode Designs SE TKL Clicky Keyboard is a TKL mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features sound-dampening foam layers, hall-effect magnetic switches, and screw-in stabilizers. Ideal for long-form writing and transcription and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-063",
+    "name": "Akko K8 TKL Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Akko",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 303.79,
+    "description": "The Akko K8 TKL Tactile Keyboard is a TKL mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features sound-dampening foam layers, screw-in stabilizers, and polling rate up to 8000Hz. Ideal for competitive gaming and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "competitive gaming",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-064",
+    "name": "Varmilo Frost 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Varmilo",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 200.14,
+    "description": "The Varmilo Frost 75% Tactile Keyboard is a 75% mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features polling rate up to 8000Hz, rotary volume knob, and double-shot PBT keycaps. Ideal for esports FPS titles and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-065",
+    "name": "NuPhy K8 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "NuPhy",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 178.92,
+    "description": "The NuPhy K8 75% Clicky Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features sound-dampening foam layers, double-shot PBT keycaps, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for silent shared-office use and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-066",
+    "name": "Keychron K8 TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Keychron",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 204.58,
+    "description": "The Keychron K8 TKL Linear Keyboard is a TKL mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features wireless Bluetooth 5.1 + 2.4GHz connectivity, rotary volume knob, and polling rate up to 8000Hz. Ideal for silent shared-office use and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-067",
+    "name": "Mode Designs Onyx TKL Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Mode Designs",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 77.39,
+    "description": "The Mode Designs Onyx TKL Tactile Keyboard is a TKL mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features sound-dampening foam layers, rotary volume knob, and double-shot PBT keycaps. Ideal for minimalist desk setups and streaming and content creation, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "streaming and content creation"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-068",
+    "name": "NuPhy Halo 60% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "NuPhy",
+    "layout": "60%",
+    "switch_type": "Clicky",
+    "price": 264.61,
+    "description": "The NuPhy Halo 60% Clicky Keyboard is a 60% mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features QMK/VIA support, wireless Bluetooth 5.1 + 2.4GHz connectivity, and double-shot PBT keycaps. Ideal for silent shared-office use and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-069",
+    "name": "IQUNIX Nova TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "IQUNIX",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 44.38,
+    "description": "The IQUNIX Nova TKL Linear Keyboard is a TKL mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features rotary volume knob, wireless Bluetooth 5.1 + 2.4GHz connectivity, and polling rate up to 8000Hz. Ideal for programming marathons and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "programming marathons",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-070",
+    "name": "Monsgeek Max TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 310.53,
+    "description": "The Monsgeek Max TKL Linear Keyboard is a TKL mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features double-shot PBT keycaps, rotary volume knob, and QMK/VIA support. Ideal for silent shared-office use and office typing and productivity, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "office typing and productivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-071",
+    "name": "Zoom65 Zenith Full-Size Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Zoom65",
+    "layout": "Full-Size",
+    "switch_type": "Tactile",
+    "price": 75.36,
+    "description": "The Zoom65 Zenith Full-Size Tactile Keyboard is a Full-Size mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features polling rate up to 8000Hz, QMK/VIA support, and hot-swappable PCB. Ideal for minimalist desk setups and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-072",
+    "name": "Royal Kludge Vector Full-Size Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Royal Kludge",
+    "layout": "Full-Size",
+    "switch_type": "Linear",
+    "price": 66.4,
+    "description": "The Royal Kludge Vector Full-Size Linear Keyboard is a Full-Size mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features hot-swappable PCB, QMK/VIA support, and double-shot PBT keycaps. Ideal for long-form writing and transcription and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-073",
+    "name": "Akko Pro Full-Size Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Akko",
+    "layout": "Full-Size",
+    "switch_type": "Clicky",
+    "price": 132.17,
+    "description": "The Akko Pro Full-Size Clicky Keyboard is a Full-Size mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features hall-effect magnetic switches, wireless Bluetooth 5.1 + 2.4GHz connectivity, and screw-in stabilizers. Ideal for silent shared-office use and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-074",
+    "name": "Zoom65 Cascade TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Zoom65",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 244.72,
+    "description": "The Zoom65 Cascade TKL Clicky Keyboard is a TKL mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features hot-swappable PCB, south-facing RGB LEDs, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for streaming and content creation and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-075",
+    "name": "Varmilo Aurora 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Varmilo",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 130.28,
+    "description": "The Varmilo Aurora 75% Clicky Keyboard is a 75% mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features QMK/VIA support, hot-swappable PCB, and screw-in stabilizers. Ideal for silent shared-office use and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-076",
+    "name": "Akko Zenith TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Akko",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 171.78,
+    "description": "The Akko Zenith TKL Clicky Keyboard is a TKL mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features south-facing RGB LEDs, wireless Bluetooth 5.1 + 2.4GHz connectivity, and rotary volume knob. Ideal for long-form writing and transcription and streaming and content creation, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "streaming and content creation"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-077",
+    "name": "Monsgeek Aurora 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Monsgeek",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 176.13,
+    "description": "The Monsgeek Aurora 75% Tactile Keyboard is a 75% mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features south-facing RGB LEDs, hot-swappable PCB, and QMK/VIA support. Ideal for minimalist desk setups and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-078",
+    "name": "Owlab Zenith Full-Size Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Owlab",
+    "layout": "Full-Size",
+    "switch_type": "Tactile",
+    "price": 315.71,
+    "description": "The Owlab Zenith Full-Size Tactile Keyboard is a Full-Size mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features double-shot PBT keycaps, sound-dampening foam layers, and hall-effect magnetic switches. Ideal for office typing and productivity and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "office typing and productivity",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-079",
+    "name": "Ajazz Nova TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 276.55,
+    "description": "The Ajazz Nova TKL Linear Keyboard is a TKL mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features wireless Bluetooth 5.1 + 2.4GHz connectivity, hot-swappable PCB, and rotary volume knob. Ideal for long-form writing and transcription and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "long-form writing and transcription",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-080",
+    "name": "Varmilo Frost Full-Size Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Varmilo",
+    "layout": "Full-Size",
+    "switch_type": "Tactile",
+    "price": 147.86,
+    "description": "The Varmilo Frost Full-Size Tactile Keyboard is a Full-Size mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features hall-effect magnetic switches, screw-in stabilizers, and sound-dampening foam layers. Ideal for office typing and productivity and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "office typing and productivity",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-081",
+    "name": "Ajazz Halo 60% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "60%",
+    "switch_type": "Linear",
+    "price": 51.37,
+    "description": "The Ajazz Halo 60% Linear Keyboard is a 60% mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features screw-in stabilizers, sound-dampening foam layers, and rotary volume knob. Ideal for custom modding enthusiasts and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-082",
+    "name": "Royal Kludge Halo TKL Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Royal Kludge",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 168.1,
+    "description": "The Royal Kludge Halo TKL Tactile Keyboard is a TKL mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features screw-in stabilizers, double-shot PBT keycaps, and hot-swappable PCB. Ideal for esports FPS titles and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-083",
+    "name": "NuPhy Slate TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "NuPhy",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 80.6,
+    "description": "The NuPhy Slate TKL Clicky Keyboard is a TKL mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features sound-dampening foam layers, hot-swappable PCB, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for minimalist desk setups and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-084",
+    "name": "Leopold Ember Full-Size Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Leopold",
+    "layout": "Full-Size",
+    "switch_type": "Linear",
+    "price": 44.23,
+    "description": "The Leopold Ember Full-Size Linear Keyboard is a Full-Size mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features hall-effect magnetic switches, wireless Bluetooth 5.1 + 2.4GHz connectivity, and QMK/VIA support. Ideal for minimalist desk setups and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-085",
+    "name": "Mode Designs K8 75% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Mode Designs",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 258.67,
+    "description": "The Mode Designs K8 75% Linear Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features south-facing RGB LEDs, QMK/VIA support, and sound-dampening foam layers. Ideal for minimalist desk setups and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-086",
+    "name": "Mode Designs Frost Full-Size Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Mode Designs",
+    "layout": "Full-Size",
+    "switch_type": "Linear",
+    "price": 271.34,
+    "description": "The Mode Designs Frost Full-Size Linear Keyboard is a Full-Size mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features double-shot PBT keycaps, QMK/VIA support, and screw-in stabilizers. Ideal for streaming and content creation and esports FPS titles, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "esports FPS titles"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-087",
+    "name": "Ducky K8 TKL Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Ducky",
+    "layout": "TKL",
+    "switch_type": "Tactile",
+    "price": 299.61,
+    "description": "The Ducky K8 TKL Tactile Keyboard is a TKL mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features double-shot PBT keycaps, rotary volume knob, and hot-swappable PCB. Ideal for minimalist desk setups and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-088",
+    "name": "Zoom65 Frost 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Zoom65",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 156.93,
+    "description": "The Zoom65 Frost 75% Tactile Keyboard is a 75% mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features sound-dampening foam layers, polling rate up to 8000Hz, and double-shot PBT keycaps. Ideal for esports FPS titles and long-form writing and transcription, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "long-form writing and transcription"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-089",
+    "name": "Ajazz Mono 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Ajazz",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 258.61,
+    "description": "The Ajazz Mono 75% Clicky Keyboard is a 75% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features wireless Bluetooth 5.1 + 2.4GHz connectivity, screw-in stabilizers, and hot-swappable PCB. Ideal for travel and portability and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "travel and portability",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-090",
+    "name": "Wooting Vector 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Wooting",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 70.9,
+    "description": "The Wooting Vector 75% Tactile Keyboard is a 75% mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features QMK/VIA support, double-shot PBT keycaps, and polling rate up to 8000Hz. Ideal for office typing and productivity and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "office typing and productivity",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-091",
+    "name": "Owlab Q1 75% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Owlab",
+    "layout": "75%",
+    "switch_type": "Tactile",
+    "price": 233.2,
+    "description": "The Owlab Q1 75% Tactile Keyboard is a 75% mechanical keyboard built around a high-density polymer chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features QMK/VIA support, south-facing RGB LEDs, and sound-dampening foam layers. Ideal for minimalist desk setups and travel and portability, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "travel and portability"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-092",
+    "name": "Wooting K8 TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Wooting",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 231.4,
+    "description": "The Wooting K8 TKL Clicky Keyboard is a TKL mechanical keyboard built around a gasket-mounted aluminum chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features screw-in stabilizers, polling rate up to 8000Hz, and sound-dampening foam layers. Ideal for esports FPS titles and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "esports FPS titles",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-093",
+    "name": "Akko Zenith 75% Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Akko",
+    "layout": "75%",
+    "switch_type": "Clicky",
+    "price": 255.13,
+    "description": "The Akko Zenith 75% Clicky Keyboard is a 75% mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features screw-in stabilizers, south-facing RGB LEDs, and double-shot PBT keycaps. Ideal for silent shared-office use and programming marathons, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "programming marathons"
+    ],
+    "image": "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-094",
+    "name": "Keychron V1 TKL Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Keychron",
+    "layout": "TKL",
+    "switch_type": "Linear",
+    "price": 204.65,
+    "description": "The Keychron V1 TKL Linear Keyboard is a TKL mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features polling rate up to 8000Hz, hall-effect magnetic switches, and screw-in stabilizers. Ideal for programming marathons and streaming and content creation, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "programming marathons",
+      "streaming and content creation"
+    ],
+    "image": "https://images.unsplash.com/photo-1595872018818-97555653a011?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-095",
+    "name": "Zoom65 SE 75% Linear Keyboard",
+    "category": "Keyboard",
+    "brand": "Zoom65",
+    "layout": "75%",
+    "switch_type": "Linear",
+    "price": 111.97,
+    "description": "The Zoom65 SE 75% Linear Keyboard is a 75% mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with linear switches for a smooth, consistent keystroke, and features hall-effect magnetic switches, screw-in stabilizers, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for silent shared-office use and programming marathons, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "silent shared-office use",
+      "programming marathons"
+    ],
+    "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-096",
+    "name": "Drop Ember TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Drop",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 333.01,
+    "description": "The Drop Ember TKL Clicky Keyboard is a TKL mechanical keyboard built around a aluminum CNC-machined chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features sound-dampening foam layers, rotary volume knob, and QMK/VIA support. Ideal for office typing and productivity and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "office typing and productivity",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-097",
+    "name": "Zoom65 Zenith Full-Size Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Zoom65",
+    "layout": "Full-Size",
+    "switch_type": "Clicky",
+    "price": 73.05,
+    "description": "The Zoom65 Zenith Full-Size Clicky Keyboard is a Full-Size mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features sound-dampening foam layers, rotary volume knob, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for custom modding enthusiasts and silent shared-office use, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "custom modding enthusiasts",
+      "silent shared-office use"
+    ],
+    "image": "https://images.unsplash.com/photo-1595225476474-89594cd8f8a8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-098",
+    "name": "Wooting Terra TKL Clicky Keyboard",
+    "category": "Keyboard",
+    "brand": "Wooting",
+    "layout": "TKL",
+    "switch_type": "Clicky",
+    "price": 215.43,
+    "description": "The Wooting Terra TKL Clicky Keyboard is a TKL mechanical keyboard built around a FR4 sandwich chassis, engineered for enthusiasts who demand precision and durability. It ships with clicky switches for a audible clicky feedback, and features rotary volume knob, hot-swappable PCB, and screw-in stabilizers. Ideal for minimalist desk setups and competitive gaming, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "minimalist desk setups",
+      "competitive gaming"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-099",
+    "name": "GMMK Nova Full-Size Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "GMMK",
+    "layout": "Full-Size",
+    "switch_type": "Tactile",
+    "price": 250.1,
+    "description": "The GMMK Nova Full-Size Tactile Keyboard is a Full-Size mechanical keyboard built around a polycarbonate chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features hall-effect magnetic switches, polling rate up to 8000Hz, and wireless Bluetooth 5.1 + 2.4GHz connectivity. Ideal for streaming and content creation and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "streaming and content creation",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "kb-100",
+    "name": "Ducky Pro 60% Tactile Keyboard",
+    "category": "Keyboard",
+    "brand": "Ducky",
+    "layout": "60%",
+    "switch_type": "Tactile",
+    "price": 141.27,
+    "description": "The Ducky Pro 60% Tactile Keyboard is a 60% mechanical keyboard built around a ABS injection-molded chassis, engineered for enthusiasts who demand precision and durability. It ships with tactile switches for a crisp tactile bump, and features hot-swappable PCB, polling rate up to 8000Hz, and QMK/VIA support. Ideal for office typing and productivity and minimalist desk setups, this board balances premium acoustics, ergonomic typing feel, and modern connectivity in a package designed for daily-driver reliability.",
+    "best_for": [
+      "office typing and productivity",
+      "minimalist desk setups"
+    ],
+    "image": "https://images.unsplash.com/photo-1561112078-7d24e04c3407?auto=format&fit=crop&w=600&q=80"
+  }
+]

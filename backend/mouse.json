@@ -1,0 +1,162 @@
+[
+  {
+    "id": "sw-001",
+    "name": "Logitech G502 HERO",
+    "category": "Mouse",
+    "brand": "Logitech",
+    "dpi": 25600,
+    "connectivity": "Wired",
+    "sensor_type": "Optical",
+    "price": 59.99,
+    "description": "The Logitech G502 HERO is a legendary wired gaming mouse featuring the HERO 25K sensor for pinpoint tracking accuracy, 11 programmable buttons, and adjustable weight tuning for a customized feel. Its durable mechanical switches are rated for 50 million clicks, making it a favorite among competitive gamers and everyday power users alike.",
+    "best_for": [
+      "competitive FPS gaming",
+      "everyday productivity"
+    ],
+    "image": "/src/assets/mouse/sw-001.jpg"
+  },
+  {
+    "id": "sw-002",
+    "name": "Razer DeathAdder V3",
+    "category": "Mouse",
+    "brand": "Razer",
+    "dpi": 30000,
+    "connectivity": "Wired",
+    "sensor_type": "Optical",
+    "price": 69.99,
+    "description": "The Razer DeathAdder V3 refines an iconic ergonomic shape with a lightweight 59g build and the Focus Pro 30K optical sensor. Optical mouse switches deliver near-zero debounce delay, while the ergonomic form factor is molded for extended gaming sessions without wrist fatigue.",
+    "best_for": [
+      "esports gaming",
+      "long gaming sessions"
+    ],
+    "image": "/src/assets/mouse/sw-002.jpg"
+  },
+  {
+    "id": "sw-003",
+    "name": "SteelSeries Rival 600",
+    "category": "Mouse",
+    "brand": "SteelSeries",
+    "dpi": 12000,
+    "connectivity": "Wired",
+    "sensor_type": "Optical",
+    "price": 79.99,
+    "description": "The SteelSeries Rival 600 pairs a dual-sensor system for zero acceleration tracking with a customizable weight system offering eight 4g weights across two chambers. Its split-trigger buttons and RGB lighting zones make it a favorite for gamers who want precision tuned to their exact grip.",
+    "best_for": [
+      "FPS and MOBA gaming",
+      "customizable grip preferences"
+    ],
+    "image": "/src/assets/mouse/sw-003.jpg"
+  },
+  {
+    "id": "sw-004",
+    "name": "Corsair Dark Core RGB Pro",
+    "category": "Mouse",
+    "brand": "Corsair",
+    "dpi": 18000,
+    "connectivity": "Wireless + Wired",
+    "sensor_type": "Optical",
+    "price": 89.99,
+    "description": "The Corsair Dark Core RGB Pro offers flexible SLIPSTREAM wireless, Bluetooth, or wired connectivity without sacrificing performance, backed by an 18,000 DPI optical sensor. Qi wireless charging compatibility and a comfortable ergonomic shell make it a versatile daily driver for gaming and productivity.",
+    "best_for": [
+      "hybrid work and gaming setups",
+      "wireless flexibility"
+    ],
+    "image": "/src/assets/mouse/sw-004.jpg"
+  },
+  {
+    "id": "sw-005",
+    "name": "Glorious Model O Wireless",
+    "category": "Mouse",
+    "brand": "Glorious",
+    "dpi": 19000,
+    "connectivity": "Wireless",
+    "sensor_type": "Optical",
+    "price": 79.99,
+    "description": "The Glorious Model O Wireless is built around a lightweight honeycomb shell weighing just 69g, paired with the BAMF sensor for lag-free 19,000 DPI tracking. Its ambidextrous design and 71-hour battery life make it a top choice for enthusiasts chasing ultra-light, high-performance wireless gaming.",
+    "best_for": [
+      "lightweight competitive gaming",
+      "wireless esports play"
+    ],
+    "image": "/src/assets/mouse/sw-005.jpg"
+  },
+  {
+    "id": "sw-006",
+    "name": "ASUS ROG Gladius III",
+    "category": "Mouse",
+    "brand": "ASUS ROG",
+    "dpi": 19000,
+    "connectivity": "Wired",
+    "sensor_type": "Optical",
+    "price": 79.99,
+    "description": "The ASUS ROG Gladius III features hot-swappable push-fit switch sockets, letting users swap between mechanical and optical switches without soldering. Combined with a 19,000 DPI sensor and ROG Aura Sync RGB, it's designed for gamers who want a fully customizable click feel.",
+    "best_for": [
+      "hot-swap switch experimentation",
+      "RGB-synced gaming rigs"
+    ],
+    "image": "/src/assets/mouse/sw-006.jpg"
+  },
+  {
+    "id": "sw-007",
+    "name": "HyperX Pulsefire Haste",
+    "category": "Mouse",
+    "brand": "HyperX",
+    "dpi": 16000,
+    "connectivity": "Wired",
+    "sensor_type": "Optical",
+    "price": 49.99,
+    "description": "The HyperX Pulsefire Haste uses a honeycomb shell to bring total weight down to just 59g, paired with virtually frictionless TTC skates for fast glide. A 16,000 DPI sensor and HyperFlex USB cable round out a mouse built for speed-focused competitive play at an accessible price.",
+    "best_for": [
+      "budget-conscious esports gaming",
+      "fast-flick aim styles"
+    ],
+    "image": "/src/assets/mouse/sw-007.jpg"
+  },
+  {
+    "id": "sw-008",
+    "name": "Zowie EC2-C",
+    "category": "Mouse",
+    "brand": "BenQ Zowie",
+    "dpi": 3200,
+    "connectivity": "Wired",
+    "sensor_type": "Optical",
+    "price": 69.99,
+    "description": "The Zowie EC2-C is a plug-and-play competitive mouse with zero software, zero acceleration, and a time-tested ergonomic shape favored by professional CS players. Its consistent sensor performance and driverless design prioritize raw, predictable aim over feature bloat.",
+    "best_for": [
+      "professional CS/FPS competition",
+      "no-frills driverless setups"
+    ],
+    "image": "/src/assets/mouse/sw-008.jpg"
+  },
+  {
+    "id": "sw-009",
+    "name": "Logitech MX Master 3S",
+    "category": "Mouse",
+    "brand": "Logitech",
+    "dpi": 8000,
+    "connectivity": "Wireless",
+    "sensor_type": "Optical",
+    "price": 99.99,
+    "description": "The Logitech MX Master 3S is a productivity-focused wireless mouse with an 8,000 DPI sensor, quiet click switches, and an 8x faster MagSpeed electromagnetic scroll wheel. Multi-device Flow support and app-specific customization make it a favorite for professionals working across multiple computers.",
+    "best_for": [
+      "multi-device productivity",
+      "office and creative workflows"
+    ],
+    "image": "/src/assets/mouse/sw-009.jpg"
+  },
+  {
+    "id": "sw-010",
+    "name": "Razer Viper V2 Pro",
+    "category": "Mouse",
+    "brand": "Razer",
+    "dpi": 30000,
+    "connectivity": "Wireless",
+    "sensor_type": "Optical",
+    "price": 149.99,
+    "description": "The Razer Viper V2 Pro strips down to an ultra-light 55g wireless shell without compromising on performance, powered by the Focus Pro 30K optical sensor and Gen-3 optical switches. Built for professional esports athletes, it delivers HyperSpeed wireless with zero perceptible latency.",
+    "best_for": [
+      "professional esports",
+      "ultra-lightweight wireless gaming"
+    ],
+    "image": "/src/assets/mouse/sw-010.jpg"
+  }
+]

@@ -1,10 +1,15 @@
 import React, { useContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider, CartContext } from "./context/CartContext";
-import Navbar from "./components/Navbar";
-import ChatAssistant from "./components/ChatAssistant";
-import HomePage from "./pages/HomePage";
-import CartPage from "./pages/CartPage";
+import Navbar from "./Components/Navbar";
+import ChatAssistant from "./Components/ChatAssistant";
+import HomePage from "./Pages/HomePage";
+import CartPage from "./Pages/CartPage";
+import KeyboardsPage from './Pages/KeyboardsPage';
+import MousePage from './Pages/MousePage';
+import DesktopMatsPage from './Pages/DesktopMatsPage';
+import CablesPage from './Pages/CablesPage';
+
 function AppContent() {
   const { cart } = useContext(CartContext);
   const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
@@ -16,6 +21,10 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cart" element={<CartPage />} />
+        <Route path="/keyboards" element={<KeyboardsPage />} />
+        <Route path="/mouse" element={<MousePage />} />
+        <Route path="/desktop_mats" element={<DesktopMatsPage />} />
+        <Route path="/cables" element={<CablesPage />} />
       </Routes>
 
       <ChatAssistant />

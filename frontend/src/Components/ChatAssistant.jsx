@@ -1,14 +1,8 @@
 import React, { useState, useRef, useEffect, useContext } from 'react';
-import { MessageCircle, X, Send, Loader2, CheckCircle2 } from 'lucide-react';
+import { MessageCircle, X, Send, Loader2, ShoppingBag, CheckCircle2, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CartContext } from '../context/CartContext';
-
-// Quick lookup table for the frontend to know the prices and names
-const productsDB = [
-  { id: "kb-01", name: "KeyForge Obsidian 75%", category: "Keyboard", price: 185.00, image: "⌨️" },
-  { id: "sw-01", name: "Gateron Silent Black Switches", category: "Switches", price: 25.00, image: "🎛️" },
-  { id: "kc-01", name: "GMK Retro Keycaps", category: "Keycaps", price: 45.00, image: "🔠" }
-];
+import { useNavigate } from 'react-router-dom';
 
 export default function ChatAssistant() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,9 +17,19 @@ export default function ChatAssistant() {
   const [inputValue, setInputValue] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef(null);
-  
-  // Bring in the global cart function!
+  const navigate = useNavigate();
+
+  // Products fetched from backend for cart lookups
+  const [allProducts, setAllProducts] = useState([]);
   const { addToCart } = useContext(CartContext);
+
+  // Fetch all products on mount for cart lookup
+  useEffect(() => {
+    fetch('http://localhost:5000/api/products')
+      .then(res => res.json())
+      .then(data => setAllProducts(data))
+      .catch(err => console.error('Failed to load products for chat:', err));
+  }, []);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -34,6 +38,12 @@ export default function ChatAssistant() {
   useEffect(() => {
     scrollToBottom();
   }, [messages, isTyping]);
+
+  const handleAddProduct = (product) => {
+    // Try to find the full product in our fetched list
+    const fullProduct = allProducts.find(p => p.id === product.id) || product;
+    addToCart(fullProduct);
+  };
 
   const handleSend = async (text = inputValue) => {
     if (!text.trim()) return;
@@ -63,17 +73,16 @@ export default function ChatAssistant() {
         id: (Date.now() + 1).toString(),
         role: 'ai',
         content: data.message,
+        recommendedProducts: data.recommendedProducts || [],
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       };
       setMessages((prev) => [...prev, newAiMsg]);
 
-      // THE MAGIC: Intercept the AI's JSON action and update the cart!
-      if (data.action && data.action.type === 'ADD_TO_CART' && data.action.itemIds.length > 0) {
+      // Auto add-to-cart if AI triggers it
+      if (data.action && data.action.type === 'ADD_TO_CART' && data.action.itemIds?.length > 0) {
         data.action.itemIds.forEach(itemId => {
-          const product = productsDB.find(p => p.id === itemId);
-          if (product) {
-            addToCart(product);
-          }
+          const product = allProducts.find(p => p.id === itemId);
+          if (product) addToCart(product);
         });
       }
 
@@ -87,6 +96,56 @@ export default function ChatAssistant() {
     } finally {
       setIsTyping(false);
     }
+  };
+
+  // Inline product recommendation card
+  const RecommendationCard = ({ product }) => {
+    const [added, setAdded] = useState(false);
+    return (
+      <div className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-xl p-2.5 hover:border-violet-500/30 transition-all group">
+        {/* Tiny image */}
+        {product.image && (
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-12 h-12 rounded-lg object-cover flex-shrink-0 border border-white/10"
+          />
+        )}
+
+        {/* Info */}
+        <div className="flex-1 min-w-0">
+          <p className="text-xs font-semibold text-white truncate">{product.name}</p>
+          <p className="text-[11px] text-violet-400 font-bold">${product.price?.toFixed(2)}</p>
+        </div>
+
+        {/* Actions */}
+        <div className="flex items-center gap-1 flex-shrink-0">
+          {product.link && (
+            <button
+              onClick={() => navigate(product.link)}
+              className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-colors"
+              title="View category"
+            >
+              <ExternalLink className="w-3.5 h-3.5" />
+            </button>
+          )}
+          <button
+            onClick={() => {
+              handleAddProduct(product);
+              setAdded(true);
+              setTimeout(() => setAdded(false), 1500);
+            }}
+            className={`p-1.5 rounded-lg transition-all ${added
+                ? 'bg-emerald-500/20 text-emerald-300'
+                : 'bg-violet-600 hover:bg-violet-500 text-white'
+              }`}
+            title="Add to cart"
+          >
+            {added ? <CheckCircle2 className="w-3.5 h-3.5" /> : <ShoppingBag className="w-3.5 h-3.5" />}
+          </button>
+        </div>
+      </div>
+    );
   };
 
   return (
@@ -108,8 +167,9 @@ export default function ChatAssistant() {
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="fixed bottom-6 right-6 w-[380px] h-[600px] bg-[#111827]/90 backdrop-blur-xl border border-white/10 rounded-[24px] shadow-2xl flex flex-col overflow-hidden z-50"
+            className="fixed bottom-6 right-6 w-[400px] h-[620px] bg-[#111827]/90 backdrop-blur-xl border border-white/10 rounded-[24px] shadow-2xl flex flex-col overflow-hidden z-50"
           >
+            {/* Header */}
             <div className="p-4 border-b border-white/10 flex justify-between items-center bg-white/5">
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
@@ -120,15 +180,25 @@ export default function ChatAssistant() {
               </button>
             </div>
 
+            {/* Messages */}
             <div className="flex-1 overflow-y-auto p-4 space-y-4">
               {messages.map((msg) => (
                 <div key={msg.id} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                  <div className={`max-w-[85%] rounded-2xl p-3 ${
-                    msg.role === 'user' 
-                      ? 'bg-violet-600 text-white rounded-tr-sm' 
+                  <div className={`max-w-[90%] rounded-2xl p-3 ${msg.role === 'user'
+                      ? 'bg-violet-600 text-white rounded-tr-sm'
                       : 'bg-white/10 text-gray-200 rounded-tl-sm'
-                  }`}>
+                    }`}>
                     <p className="text-sm leading-relaxed">{msg.content}</p>
+
+                    {/* Product recommendation cards */}
+                    {msg.recommendedProducts && msg.recommendedProducts.length > 0 && (
+                      <div className="mt-3 space-y-2">
+                        {msg.recommendedProducts.map((product, i) => (
+                          <RecommendationCard key={product.id || i} product={product} />
+                        ))}
+                      </div>
+                    )}
+
                     <span className="text-[10px] opacity-50 mt-1 block">{msg.timestamp}</span>
                   </div>
                 </div>
@@ -143,6 +213,7 @@ export default function ChatAssistant() {
               <div ref={messagesEndRef} />
             </div>
 
+            {/* Input */}
             <div className="p-4 border-t border-white/10 bg-white/5">
               <div className="relative flex items-center">
                 <input

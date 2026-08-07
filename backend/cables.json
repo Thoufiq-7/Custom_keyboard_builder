@@ -1,0 +1,102 @@
+[
+  {
+    "id": "acc-001",
+    "name": "UGREEN Cat 8 Ethernet Cable",
+    "category": "Cable",
+    "brand": "UGREEN",
+    "type": "Ethernet Cable",
+    "price": 14.99,
+    "description": "The UGREEN Cat 8 Ethernet Cable supports speeds up to 40Gbps with gold-plated connectors and triple-layer shielding to minimize interference. Its braided nylon jacket adds durability for gamers and professionals who need a stable, low-latency wired connection.",
+    "image": "/src/assets/cables/acc-001.jpg"
+  },
+  {
+    "id": "acc-002",
+    "name": "StarTech VGA to HDMI Adapter",
+    "category": "Cable",
+    "brand": "StarTech",
+    "type": "Video Adapter",
+    "price": 29.99,
+    "description": "The StarTech VGA to HDMI Adapter converts analog VGA video and separate audio into a digital HDMI signal, supporting resolutions up to 1080p. It's a practical solution for connecting older laptops or desktops to modern HDMI-only monitors and projectors.",
+    "image": "/src/assets/cables/acc-002.jpg"
+  },
+  {
+    "id": "acc-003",
+    "name": "Anker 100W USB-C to USB-C Cable",
+    "category": "Cable",
+    "brand": "Anker",
+    "type": "USB-C Cable",
+    "price": 15.99,
+    "description": "The Anker 100W USB-C to USB-C Cable supports fast charging up to 100W and data transfer speeds up to 480Mbps, wrapped in a durable double-braided nylon exterior. It's built to handle laptops, phones, and USB-C peripherals with a bend-lifespan rated for over 25,000 flexes.",
+    "image": "/src/assets/cables/acc-003.jpg"
+  },
+  {
+    "id": "acc-004",
+    "name": "Cable Matters DisplayPort to HDMI Adapter",
+    "category": "Cable",
+    "brand": "Cable Matters",
+    "type": "Video Adapter",
+    "price": 12.99,
+    "description": "The Cable Matters DisplayPort to HDMI Adapter enables a DisplayPort-equipped PC or graphics card to output to an HDMI display at resolutions up to 4K at 30Hz. Its compact, gold-plated connector design ensures a reliable, corrosion-resistant connection.",
+    "image": "/src/assets/cables/acc-004.jpg"
+  },
+  {
+    "id": "acc-005",
+    "name": "Belkin USB-C 7-in-1 Multiport Hub",
+    "category": "Cable",
+    "brand": "Belkin",
+    "type": "USB Hub / Port Expander",
+    "price": 59.99,
+    "description": "The Belkin USB-C 7-in-1 Multiport Hub expands a single USB-C port into HDMI, USB-A, SD/microSD card readers, and 100W pass-through charging. It's a compact docking solution for laptop users who need multiple peripherals connected simultaneously.",
+    "image": "/src/assets/cables/acc-005.jpg"
+  },
+  {
+    "id": "acc-006",
+    "name": "TP-Link USB 3.0 to Gigabit Ethernet Adapter",
+    "category": "Cable",
+    "brand": "TP-Link",
+    "type": "Network Adapter",
+    "price": 17.99,
+    "description": "The TP-Link USB 3.0 to Gigabit Ethernet Adapter adds a reliable wired network connection to laptops lacking a built-in Ethernet port, supporting speeds up to 1000Mbps. Its plug-and-play design works across Windows, macOS, and Linux without additional drivers in most cases.",
+    "image": "/src/assets/cables/acc-006.jpg"
+  },
+  {
+    "id": "acc-007",
+    "name": "Baseus USB-C to Lightning Fast Charge Cable",
+    "category": "Cable",
+    "brand": "Baseus",
+    "type": "USB Cable",
+    "price": 11.99,
+    "description": "The Baseus USB-C to Lightning Fast Charge Cable supports Power Delivery fast charging for compatible devices, wrapped in a durable braided exterior rated for extended daily use. Its reinforced connector joints are designed to resist fraying at common stress points.",
+    "image": "/src/assets/cables/acc-007.jpg"
+  },
+  {
+    "id": "acc-008",
+    "name": "UGREEN USB-C to HDMI 4K Cable",
+    "category": "Cable",
+    "brand": "UGREEN",
+    "type": "Video Cable",
+    "price": 18.99,
+    "description": "The UGREEN USB-C to HDMI 4K Cable transmits video directly from USB-C laptops and phones to HDMI displays at up to 4K/60Hz resolution. Its aluminum alloy connector shells and gold-plated contacts help maintain a stable, high-bandwidth signal.",
+    "image": "/src/assets/cables/acc-008.jpg"
+  },
+  {
+    "id": "acc-009",
+    "name": "Anker PowerExpand 8-in-1 USB-C Hub",
+    "category": "Cable",
+    "brand": "Anker",
+    "type": "USB Hub / Port Expander",
+    "price": 69.99,
+    "description": "The Anker PowerExpand 8-in-1 USB-C Hub consolidates HDMI, Ethernet, SD card, and multiple USB ports into a single compact dock. It's designed for creators and remote workers who need to connect a full peripheral setup through one USB-C port.",
+    "image": "/src/assets/cables/acc-009.jpg"
+  },
+  {
+    "id": "acc-010",
+    "name": "StarTech USB-C to VGA Adapter",
+    "category": "Cable",
+    "brand": "StarTech",
+    "type": "Video Adapter",
+    "price": 24.99,
+    "description": "The StarTech USB-C to VGA Adapter lets modern USB-C laptops connect to legacy VGA projectors and monitors at resolutions up to 1080p. Its compact form factor and durable housing make it a reliable option for presentations in conference rooms with older AV equipment.",
+    "image": "/src/assets/cables/acc-010.jpg"
+  }
+]

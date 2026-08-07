@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kc-001",
+    "name": "Logitech G840 XL Cloth Gaming Mouse Pad",
+    "category": "Desktop Mats",
+    "brand": "Logitech",
+    "size": "XL / Extended",
+    "material": "Cloth",
+    "price": 34.99,
+    "description": "The Logitech G840 XL is an extended cloth mouse pad sized to fit both mouse and full keyboard, offering a smooth micro-textured surface for consistent glide. A rubberized base keeps it anchored during intense gaming sessions, while reinforced stitched edges prevent fraying over time.",
+    "colorway": "Black",
+    "image": "/src/assets/desktop_mats/kc-001.jpg"
+  },
+  {
+    "id": "kc-002",
+    "name": "Razer Goliathus Extended Chroma",
+    "category": "Desktop Mats",
+    "brand": "Razer",
+    "size": "XL / Extended",
+    "material": "Cloth",
+    "price": 49.99,
+    "description": "The Razer Goliathus Extended Chroma combines a woven micro-weave cloth surface with full-length underglow RGB lighting synced through Razer Chroma. Its extended size covers both mouse and keyboard, giving desk setups a cohesive, illuminated aesthetic without sacrificing tracking consistency.",
+    "colorway": "Black with RGB Edge",
+    "image": "/src/assets/desktop_mats/kc-002.jpg"
+  },
+  {
+    "id": "kc-003",
+    "name": "SteelSeries QcK Heavy",
+    "category": "Desktop Mats",
+    "brand": "SteelSeries",
+    "size": "Large",
+    "material": "Cloth",
+    "price": 24.99,
+    "description": "The SteelSeries QcK Heavy is a thick, non-slip cloth mouse pad renowned for its consistent tracking surface trusted by professional gamers for over a decade. Its rubber base and durable stitched edges ensure it stays flat and intact through years of daily use.",
+    "colorway": "Black",
+    "image": "/src/assets/desktop_mats/kc-003.jpg"
+  },
+  {
+    "id": "kc-004",
+    "name": "Corsair MM350 Premium Spill-Proof Cloth",
+    "category": "Desktop Mats",
+    "brand": "Corsair",
+    "size": "XL / Extended",
+    "material": "Cloth",
+    "price": 34.99,
+    "description": "The Corsair MM350 features a spill-proof, water-resistant surface designed for durability under intense use, with anti-fray stitched edges and a non-slip rubber base. Its extended size accommodates a full keyboard and mouse for a clean, unified desk layout.",
+    "colorway": "Black",
+    "image": "/src/assets/desktop_mats/kc-004.jpg"
+  },
+  {
+    "id": "kc-005",
+    "name": "Glorious XXL Extended Mouse Mat",
+    "category": "Desktop Mats",
+    "brand": "Glorious",
+    "size": "XXL / Extended",
+    "material": "Cloth",
+    "price": 39.99,
+    "description": "The Glorious XXL Extended Mouse Mat covers an entire desk surface with a stitched, high-quality cloth top optimized for both high and low DPI tracking. Its heavy-duty rubber base resists curling and sliding, making it a favorite among enthusiast desk-setup builders.",
+    "colorway": "Black",
+    "image": "/src/assets/desktop_mats/kc-005.jpg"
+  },
+  {
+    "id": "kc-006",
+    "name": "HyperX Fury S Pro",
+    "category": "Desktop Mats",
+    "brand": "HyperX",
+    "size": "Large",
+    "material": "Cloth",
+    "price": 19.99,
+    "description": "The HyperX Fury S Pro offers a densely woven cloth surface engineered for balanced control and speed, with a natural rubber base that grips the desk securely. Stitched edges add durability for gamers who want consistent performance session after session.",
+    "colorway": "Black",
+    "image": "/src/assets/desktop_mats/kc-006.jpg"
+  },
+  {
+    "id": "kc-007",
+    "name": "ASUS ROG Sheath BLK LTD",
+    "category": "Desktop Mats",
+    "brand": "ASUS ROG",
+    "size": "XL / Extended",
+    "material": "Cloth",
+    "price": 39.99,
+    "description": "The ASUS ROG Sheath BLK LTD is an extended-size gaming mat with a smooth cloth surface tuned for precise cursor control at any sensitivity setting. Anti-fray stitched borders and a non-slip rubber base ensure it stays put through extended gaming marathons.",
+    "colorway": "Matte Black",
+    "image": "/src/assets/desktop_mats/kc-007.jpg"
+  },
+  {
+    "id": "kc-008",
+    "name": "Zowie G-SR-SE",
+    "category": "Desktop Mats",
+    "brand": "BenQ Zowie",
+    "size": "Large",
+    "material": "Control",
+    "price": 44.99,
+    "description": "The Zowie G-SR-SE is a control-type cloth mouse pad designed and tested with professional CS players for maximum stopping precision during tactical aim. Its rigid, textured surface offers consistent glide resistance favored in high-level competitive play.",
+    "colorway": "Black",
+    "image": "/src/assets/desktop_mats/kc-008.jpg"
+  },
+  {
+    "id": "kc-009",
+    "name": "Artisan Hien Soft",
+    "category": "Desktop Mats",
+    "brand": "Artisan",
+    "size": "Large",
+    "material": "Speed",
+    "price": 54.99,
+    "description": "The Artisan Hien Soft is a premium Japanese-made speed-type mouse pad known for its ultra-smooth glide and soft cushioned base. Popular among competitive FPS players for its silky surface texture, it's a favorite for players prioritizing fast flick-based aiming.",
+    "colorway": "Black",
+    "image": "/src/assets/desktop_mats/kc-009.jpg"
+  },
+  {
+    "id": "kc-010",
+    "name": "Pulsar ParaControl V2",
+    "category": "Desktop Mats",
+    "brand": "Pulsar",
+    "size": "Large",
+    "material": "Hybrid",
+    "price": 44.99,
+    "description": "The Pulsar ParaControl V2 blends control and speed characteristics in a hybrid weave surface, offering balanced glide resistance for varied playstyles. Its natural rubber base and precision-stitched edges give it long-term durability favored by enthusiast peripheral collectors.",
+    "colorway": "Black",
+    "image": "/src/assets/desktop_mats/kc-010.jpg"
+  }
+]

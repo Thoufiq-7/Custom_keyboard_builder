@@ -66,10 +66,11 @@ export default function ProductPage({ category }) {
 
     const meta = CATEGORY_META[category] || { title: category, subtitle: '', gradient: 'from-violet-500 to-blue-500', icon: '📦' };
 
+    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
     useEffect(() => {
         setLoading(true);
         setError(null);
-        fetch(`http://localhost:5000/api/products?category=${category}`)
+        fetch(`${API_URL}/api/products?category=${category}`)
             .then((res) => {
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 return res.json();
@@ -80,7 +81,7 @@ export default function ProductPage({ category }) {
             })
             .catch((err) => {
                 console.error('Failed to fetch products:', err);
-                setError('Could not load products. Make sure the backend is running on port 5000.');
+                setError('Could not load products. Please try again later.');
                 setLoading(false);
             });
     }, [category]);

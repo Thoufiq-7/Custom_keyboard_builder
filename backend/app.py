@@ -9,7 +9,10 @@ import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "http://localhost:5173"}})
+# In production, set FRONTEND_URL env variable on Render to your frontend's URL.
+# Falls back to localhost for local development.
+FRONTEND_ORIGIN = os.environ.get("FRONTEND_URL", "http://localhost:5173")
+CORS(app, resources={r"/api/*": {"origins": FRONTEND_ORIGIN}})
 
 load_dotenv()
 client = Groq()
@@ -266,4 +269,5 @@ def chat():
 
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)

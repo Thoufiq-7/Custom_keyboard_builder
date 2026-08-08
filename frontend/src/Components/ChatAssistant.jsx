@@ -24,8 +24,9 @@ export default function ChatAssistant() {
   const { addToCart } = useContext(CartContext);
 
   // Fetch all products on mount for cart lookup
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
   useEffect(() => {
-    fetch('http://localhost:5000/api/products')
+    fetch(`${API_URL}/api/products`)
       .then(res => res.json())
       .then(data => setAllProducts(data))
       .catch(err => console.error('Failed to load products for chat:', err));
@@ -60,7 +61,7 @@ export default function ChatAssistant() {
     setIsTyping(true);
 
     try {
-      const response = await fetch('http://localhost:5000/api/chat', {
+      const response = await fetch(`${API_URL}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ prompt: text.trim() }),
@@ -90,7 +91,7 @@ export default function ChatAssistant() {
       setMessages((prev) => [...prev, {
         id: (Date.now() + 1).toString(),
         role: 'ai',
-        content: "Oops! Make sure your Python Flask server is running on port 5000.",
+        content: "Oops! Could not reach the server. Please try again later.",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       }]);
     } finally {
@@ -136,8 +137,8 @@ export default function ChatAssistant() {
               setTimeout(() => setAdded(false), 1500);
             }}
             className={`p-1.5 rounded-lg transition-all ${added
-                ? 'bg-emerald-500/20 text-emerald-300'
-                : 'bg-violet-600 hover:bg-violet-500 text-white'
+              ? 'bg-emerald-500/20 text-emerald-300'
+              : 'bg-violet-600 hover:bg-violet-500 text-white'
               }`}
             title="Add to cart"
           >
@@ -185,8 +186,8 @@ export default function ChatAssistant() {
               {messages.map((msg) => (
                 <div key={msg.id} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                   <div className={`max-w-[90%] rounded-2xl p-3 ${msg.role === 'user'
-                      ? 'bg-violet-600 text-white rounded-tr-sm'
-                      : 'bg-white/10 text-gray-200 rounded-tl-sm'
+                    ? 'bg-violet-600 text-white rounded-tr-sm'
+                    : 'bg-white/10 text-gray-200 rounded-tl-sm'
                     }`}>
                     <p className="text-sm leading-relaxed">{msg.content}</p>
 

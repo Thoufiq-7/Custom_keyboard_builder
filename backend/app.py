@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
+import re
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from groq import Groq
@@ -21,6 +22,9 @@ DATA_FILES = {
     "mouse": "mouse.json",
     "desktop_mats": "desktop_mats.json",
     "cables": "cables.json",
+    "laptops": "laptops.json",
+    "monitors": "monitors.json",
+    "desktops": "desktops.json",
 }
 
 all_products = []
@@ -71,6 +75,28 @@ product_texts = [build_search_text(p) for p in all_products]
 product_vectors = embedder.encode(product_texts)
 print("Backend Ready! ✓")
 
+# ─── BUDGET HELPER ───────────────────────────────────────────────────────────
+
+def extract_budget(text):
+    """Extract a dollar budget from free-form text. Returns float or None."""
+    # Match patterns like $200, 200 dollars, under 200, within 300, budget of 150
+    patterns = [
+        r'\$([\d,]+(?:\.\d+)?)',          # $200, $1,500
+        r'([\d,]+(?:\.\d+)?)\s*(?:dollar|usd|bucks)',  # 200 dollars
+        r'(?:under|below|within|around|max(?:imum)?|budget(?:\s+of)?)\s*\$?([\d,]+(?:\.\d+)?)',
+        r'([\d,]+(?:\.\d+)?)\s*(?:total|budget)',
+    ]
+    for pat in patterns:
+        m = re.search(pat, text, re.IGNORECASE)
+        if m:
+            raw = m.group(1).replace(',', '')
+            try:
+                return float(raw)
+            except ValueError:
+                pass
+    return None
+
+
 # ─── ROUTES ──────────────────────────────────────────────────────────────────
 
 @app.route('/', methods=['GET'])
@@ -107,61 +133,106 @@ def chat():
     if not user_input:
         return jsonify({"error": "Prompt is required"}), 400
 
-    # --- STEP A: VECTOR RETRIEVAL (diverse across categories) ---
+    # --- STEP A: EXTRACT BUDGET (if any) ---
+    budget = extract_budget(user_input)
+
+    # --- STEP B: VECTOR RETRIEVAL (guaranteed diverse across all categories) ---
     query_vector = embedder.encode([user_input])
     similarities = np.dot(product_vectors, query_vector.T).squeeze()
 
     if similarities.ndim == 0:
         top_indices = [0]
     else:
-        # Get top matches but ensure we pull from different categories
         sorted_indices = np.argsort(similarities)[::-1]
 
-        # Separate by category: grab top 2 from each category
-        category_picks = {}
+        # PASS 1: Guarantee at least 1 product per category (so the LLM always has
+        # every category available when building a full setup recommendation).
+        # If budget is set, only include products within budget (10% tolerance).
+        category_best = {}   # cat -> best index (within budget)
         for idx in sorted_indices:
-            cat = all_products[idx].get("category", "")
-            if cat not in category_picks:
-                category_picks[cat] = []
-            if len(category_picks[cat]) < 2:
-                category_picks[cat].append(idx)
-            if sum(len(v) for v in category_picks.values()) >= 8:
+            product = all_products[idx]
+            cat = product.get("category", "other")
+            price = product.get("price", 0)
+            if budget is not None and price > budget * 1.1:
+                continue
+            if cat not in category_best:
+                category_best[cat] = idx  # first (highest similarity) within budget
+
+        guaranteed_indices = list(category_best.values())
+        guaranteed_set = set(guaranteed_indices)
+
+        # PASS 2: Fill remaining slots (up to MAX_CONTEXT total) with the next-best
+        # products, prioritising variety (max 2 extras per category).
+        EXTRA_PER_CAT = 2
+        MAX_CONTEXT = 21  # 7 categories × 3 products each
+        extra_picks = {}
+        for idx in sorted_indices:
+            if idx in guaranteed_set:
+                continue
+            product = all_products[idx]
+            cat = product.get("category", "other")
+            price = product.get("price", 0)
+            if budget is not None and price > budget * 1.1:
+                continue
+            extra_picks.setdefault(cat, [])
+            if len(extra_picks[cat]) < EXTRA_PER_CAT:
+                extra_picks[cat].append(idx)
+            if len(guaranteed_indices) + sum(len(v) for v in extra_picks.values()) >= MAX_CONTEXT:
                 break
 
-        top_indices = []
-        for picks in category_picks.values():
+        top_indices = guaranteed_indices
+        for picks in extra_picks.values():
             top_indices.extend(picks)
 
     context_items = [all_products[i] for i in top_indices]
-    context_str = json.dumps(context_items, indent=2)
 
-    # --- STEP B: LLM GENERATION WITH STRUCTURED JSON ---
-    system_prompt = f"""
-    You are a luxury mechanical keyboard AI shopping assistant for KeyForge.
+    # Attach price info clearly for the LLM
+    context_str = json.dumps(context_items, indent=2)
+    budget_instruction = (
+        f"""\n    BUDGET CONSTRAINT: The user has a TOTAL budget of ${budget:.2f} for the ENTIRE setup.
+    - You MUST pick one product from each relevant category such that their prices ADD UP to no more than ${budget:.2f}.
+    - Calculate the exact total: sum up the prices of every product you recommend.
+    - If you cannot find a valid combination within ${budget:.2f}, say so and recommend the closest best-value options.
+    - Always state the total cost in your message (e.g., "Total: $X.XX")."""
+        if budget is not None else ""
+    )
+
+    # --- STEP C: LLM GENERATION WITH STRUCTURED JSON ---
+    system_prompt = f"""You are a luxury keyboard & desktop setup AI shopping assistant for KeyForge.
     User Request: "{user_input}"
-    
-    Available Inventory (matching products across all categories):
+    {budget_instruction}
+
+    Available Inventory (pre-filtered, most relevant products across all categories):
     {context_str}
-    
+
     INSTRUCTIONS:
-    1. You are an expert keyboard and desktop setup advisor. Your PRIMARY job is to help users build or customize their perfect desktop setup.
-    2. When a user asks about keyboards or wants to build one:
-       - Recommend ACCESSORIES that complement the setup: a gaming mouse, an extended desk mat, and a matching coiled cable.
-       - If the user wants a READYMADE keyboard (pre-built, ready to use), recommend keyboards from inventory.
-       - Always suggest a complete setup: keyboard + mouse + mouse mat + cable.
-    3. When a user asks about specific parts (mouse, mouse mat, cables), recommend those parts.
-    4. Be conversational, enthusiastic, and knowledgeable. Explain WHY you recommend each item.
-    5. If the user expresses intent to buy, add to cart, or purchase, include the product ID in itemIds.
-    6. You MUST respond in pure, valid JSON:
+    1. You are an expert desktop setup advisor. Help users build their perfect setup.
+    2. FULL SETUP REQUEST RULE (CRITICAL): If the user asks for a full/complete/total/entire setup,
+       you MUST recommend EXACTLY ONE product from EACH of these 7 categories:
+         - Keyboard
+         - Mouse
+         - Desktop Mats
+         - Cable
+         - Laptop
+         - Monitor
+         - Desktop
+       Do NOT pick two items from the same category. Do NOT skip any category.
+       The inventory provided contains products from all 7 categories — use them.
+    3. For a SINGLE CATEGORY request: recommend 1-3 best products from that category.
+    4. BUDGET RULE (critical): When a budget is given, sum every recommended product price.
+       The total MUST be <= the budget. Show the breakdown: "Keyboard: $X + Mouse: $Y + Mat: $Z + Cable: $W + Laptop: $L + Monitor: $M + Desktop: $D = Total: $T".
+    5. Be conversational, enthusiastic, and explain WHY you recommend each item.
+    6. If the user wants to buy/add to cart, include product IDs in itemIds.
+    7. Respond ONLY in this exact JSON format:
     {{
-        "message": "Your response. Be helpful and recommend accessories that pair well together.",
+        "message": "Your helpful, detailed response including price breakdown if budget was requested.",
         "recommendedProducts": [
             {{
-                "id": "product-id",
-                "name": "Product Name",
+                "id": "exact-product-id-from-inventory",
+                "name": "Exact Product Name",
                 "price": 99.99,
-                "image": "image-path-from-inventory",
-                "link": "/category-page-link"
+                "image": "exact-image-path-from-inventory",
+                "link": "/exact-link-from-inventory"
             }}
         ],
         "action": {{
@@ -169,9 +240,10 @@ def chat():
             "itemIds": []
         }}
     }}
-    7. recommendedProducts should contain 1-4 products. Use exact id, name, price, image, link from inventory.
-    8. PRIORITIZE accessories (switches, keycaps, lube, tools) over keyboards unless the user specifically asks for a readymade/pre-built keyboard.
-    9. If no items to add to cart, leave itemIds empty: [].
+    8. Use EXACT id, name, price, image, link values from the inventory above. Do not invent products.
+    9. recommendedProducts: For full-setup queries return exactly 7 items (one per category).
+       For single-category queries return 1-3 items.
+    10. If no items to add to cart, leave itemIds as: [].
     """
 
     try:

@@ -23,7 +23,7 @@ export default function HomePage() {
           transition={{ delay: 0.1 }}
           className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50"
         >
-          Craft Your Perfect <br /> Typing Experience
+          Craft Your Perfect <br /> Desktop Setup
         </motion.h1>
 
         <motion.p
@@ -32,7 +32,7 @@ export default function HomePage() {
           transition={{ delay: 0.2 }}
           className="text-lg text-gray-400 max-w-2xl mb-10"
         >
-          Don't know where to start? Click the AI Assistant in the bottom right corner to build a custom board tailored to your exact sound, feel, and aesthetic preferences.
+          Don't know where to start? Click the AI Assistant in the bottom right corner to build a custom Desktop setup tailored to your exact sound, feel, and aesthetic preferences.
         </motion.p>
 
         <motion.div

@@ -24,6 +24,9 @@ const NAV_LINKS = [
   { name: 'Mouse', path: '/mouse' },
   { name: 'Desktop Mats', path: '/desktop_mats' },
   { name: 'Cables', path: '/cables' },
+  { name: 'Laptops', path: '/laptops' },
+  { name: 'Monitors', path: '/monitors' },
+  { name: 'Desktops', path: '/desktops' },
 ];
 
 export default function Navbar({ wishlistCount = 2 }) {
@@ -94,9 +97,9 @@ export default function Navbar({ wishlistCount = 2 }) {
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold tracking-tight text-white flex items-center gap-1 font-mono">
-                  KEY<span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-400">FORGE</span>
+                  PC<span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-400">FORGE</span>
                 </span>
-                <span className="text-[10px] text-gray-400 tracking-widest uppercase font-semibold">Custom Boards</span>
+                <span className="text-[10px] text-gray-400 tracking-widest uppercase font-semibold">Desktop Setup</span>
               </div>
             </Link>
 

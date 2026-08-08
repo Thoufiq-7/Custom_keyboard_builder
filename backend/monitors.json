@@ -1,0 +1,192 @@
+[
+    {
+        "id": "mon-001",
+        "name": "LG 27GP950-B UltraGear",
+        "category": "Monitor",
+        "brand": "LG",
+        "resolution": "4K UHD (3840x2160)",
+        "refresh_rate": "160Hz",
+        "panel_type": "Nano IPS",
+        "size": "27 inch",
+        "response_time": "1ms GTG",
+        "price": 749.99,
+        "description": "The LG 27GP950-B is a flagship 4K gaming monitor combining Nano IPS technology with a 160Hz refresh rate and 1ms GTG response. DisplayHDR 600 certification, HDMI 2.1 for console compatibility, and VESA DisplayHDR 600 make it a top-tier choice for next-gen gaming and professional color work.",
+        "best_for": [
+            "4K gaming",
+            "PS5/Xbox Series X",
+            "color-accurate work"
+        ],
+        "image": "/src/assets/monitors/mon-001.jpg"
+    },
+    {
+        "id": "mon-002",
+        "name": "ASUS ROG Swift PG279QM",
+        "category": "Monitor",
+        "brand": "ASUS ROG",
+        "resolution": "QHD (2560x1440)",
+        "refresh_rate": "240Hz",
+        "panel_type": "Fast IPS",
+        "size": "27 inch",
+        "response_time": "1ms GTG",
+        "price": 649.99,
+        "description": "The ASUS ROG Swift PG279QM pushes competitive gaming to the limit with a 240Hz Fast IPS panel that delivers 1ms response times at QHD resolution. G-SYNC Ultimate with VESA DisplayHDR 600, ROG SWIFT technology for near-zero motion blur, and a robust adjustable stand make it a premier esports display.",
+        "best_for": [
+            "competitive esports",
+            "high-refresh gaming",
+            "G-SYNC setups"
+        ],
+        "image": "/src/assets/monitors/mon-002.jpg"
+    },
+    {
+        "id": "mon-003",
+        "name": "Dell UltraSharp U2722D",
+        "category": "Monitor",
+        "brand": "Dell",
+        "resolution": "QHD (2560x1440)",
+        "refresh_rate": "60Hz",
+        "panel_type": "IPS Black",
+        "size": "27 inch",
+        "response_time": "5ms GTG",
+        "price": 529.99,
+        "description": "The Dell UltraSharp U2722D targets professionals with its IPS Black panel offering 2000:1 contrast ratio — twice that of standard IPS — and factory-calibrated Delta E < 2 color accuracy. USB-C with 90W power delivery, a built-in 4-port USB hub, and VESA ComfortView Plus make it the definitive workstation monitor.",
+        "best_for": [
+            "professional design",
+            "office productivity",
+            "accurate color"
+        ],
+        "image": "/src/assets/monitors/mon-003.jpg"
+    },
+    {
+        "id": "mon-004",
+        "name": "Samsung Odyssey G7 32\"",
+        "category": "Monitor",
+        "brand": "Samsung",
+        "resolution": "QHD (2560x1440)",
+        "refresh_rate": "240Hz",
+        "panel_type": "VA (1000R Curved)",
+        "size": "32 inch",
+        "response_time": "1ms MPRT",
+        "price": 649.99,
+        "description": "The Samsung Odyssey G7 features a dramatic 1000R curvature — matching the human eye's natural field of view — paired with a 240Hz VA panel and quantum dot technology. Its VESA DisplayHDR 600 certification and G-Sync/FreeSync Premium Pro compatibility deliver an immersive, competitive gaming experience.",
+        "best_for": [
+            "immersive gaming",
+            "curved display enthusiasts",
+            "large-screen setups"
+        ],
+        "image": "/src/assets/monitors/mon-004.jpg"
+    },
+    {
+        "id": "mon-005",
+        "name": "BenQ PD3220U DesignVue",
+        "category": "Monitor",
+        "brand": "BenQ",
+        "resolution": "4K UHD (3840x2160)",
+        "refresh_rate": "60Hz",
+        "panel_type": "IPS",
+        "size": "32 inch",
+        "response_time": "5ms GTG",
+        "price": 899.99,
+        "description": "The BenQ PD3220U is purpose-built for designers and video editors with factory-calibrated Rec. 709, DCI-P3, and sRGB color modes, Thunderbolt 3 daisy-chaining, and a KVM switch for controlling two computers. Its 4K resolution and comprehensive port selection make it the hub of any professional creative workstation.",
+        "best_for": [
+            "graphic design",
+            "video production",
+            "Mac creative setups"
+        ],
+        "image": "/src/assets/monitors/mon-005.jpg"
+    },
+    {
+        "id": "mon-006",
+        "name": "Alienware AW3423DWF",
+        "category": "Monitor",
+        "brand": "Alienware",
+        "resolution": "QD-OLED 3440x1440",
+        "refresh_rate": "165Hz",
+        "panel_type": "QD-OLED",
+        "size": "34 inch",
+        "response_time": "0.1ms",
+        "price": 899.99,
+        "description": "The Alienware AW3423DWF brings QD-OLED technology to ultrawide gaming with infinite contrast, 1.07 billion colors, and a blazing 165Hz refresh rate. Its 34-inch curved screen delivers cinematic immersion while FreeSync Premium Pro ensures buttery-smooth tear-free gaming without the G-SYNC premium.",
+        "best_for": [
+            "cinematic gaming",
+            "ultrawide productivity",
+            "OLED enthusiasts"
+        ],
+        "image": "/src/assets/monitors/mon-006.jpg"
+    },
+    {
+        "id": "mon-007",
+        "name": "ViewSonic VX2758-2KP-MHD",
+        "category": "Monitor",
+        "brand": "ViewSonic",
+        "resolution": "QHD (2560x1440)",
+        "refresh_rate": "144Hz",
+        "panel_type": "IPS",
+        "size": "27 inch",
+        "response_time": "1ms GTG",
+        "price": 279.99,
+        "description": "The ViewSonic VX2758-2KP-MHD offers exceptional value for budget-conscious gamers, delivering a 144Hz QHD IPS panel with AMD FreeSync Premium and 1ms GTG response at an accessible price point. Built-in speakers and flexible connectivity including DisplayPort and dual HDMI round out a compelling everyday gaming monitor.",
+        "best_for": [
+            "budget gaming",
+            "first monitor upgrade",
+            "1440p on a budget"
+        ],
+        "image": "/src/assets/monitors/mon-007.jpg"
+    },
+    {
+        "id": "mon-008",
+        "name": "ASUS ProArt PA278QV",
+        "category": "Monitor",
+        "brand": "ASUS",
+        "resolution": "QHD (2560x1440)",
+        "refresh_rate": "75Hz",
+        "panel_type": "IPS",
+        "size": "27 inch",
+        "response_time": "5ms GTG",
+        "price": 349.99,
+        "description": "The ASUS ProArt PA278QV delivers 100% sRGB and Rec. 709 coverage with a Delta E < 2 factory calibration for professional-grade color accuracy at an approachable price. The USB-C port, extensive pivot/tilt/swivel stand, and ProArt Calibration technology make it a versatile workhorse for designers and photographers.",
+        "best_for": [
+            "photography editing",
+            "graphic arts",
+            "color-accurate budgets"
+        ],
+        "image": "/src/assets/monitors/mon-008.jpg"
+    },
+    {
+        "id": "mon-009",
+        "name": "MSI MPG Artymis 343CQR",
+        "category": "Monitor",
+        "brand": "MSI",
+        "resolution": "UWQHD (3440x1440)",
+        "refresh_rate": "165Hz",
+        "panel_type": "VA (1500R Curved)",
+        "size": "34 inch",
+        "response_time": "1ms MPRT",
+        "price": 549.99,
+        "description": "The MSI MPG Artymis 343CQR combines a 165Hz ultrawide VA curved panel with Rapid VA technology for near-IPS response times. MSI's Night Vision technology intelligently adjusts dark scene brightness, while PIP/PBP support lets you multitask across multiple inputs on the expansive 34-inch display.",
+        "best_for": [
+            "ultrawide gaming",
+            "simulation games",
+            "multi-source work"
+        ],
+        "image": "/src/assets/monitors/mon-009.jpg"
+    },
+    {
+        "id": "mon-010",
+        "name": "Philips Brilliance 279P1",
+        "category": "Monitor",
+        "brand": "Philips",
+        "resolution": "4K UHD (3840x2160)",
+        "refresh_rate": "60Hz",
+        "panel_type": "IPS",
+        "size": "27 inch",
+        "response_time": "4ms GTG",
+        "price": 449.99,
+        "description": "The Philips Brilliance 279P1 is a feature-rich 4K USB-C business monitor with a 90W Power Delivery port, Windows Hello webcam with IR face recognition, and a built-in 4-port USB hub. Its LowBlue mode and adaptive contrast make it ideal for hybrid workers who spend long hours in front of a screen.",
+        "best_for": [
+            "hybrid work",
+            "USB-C hub replacement",
+            "video conferencing"
+        ],
+        "image": "/src/assets/monitors/mon-010.jpg"
+    }
+]

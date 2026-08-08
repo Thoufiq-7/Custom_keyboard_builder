@@ -1,0 +1,192 @@
+[
+    {
+        "id": "dsk-001",
+        "name": "NZXT Starter Pro",
+        "category": "Desktop",
+        "brand": "NZXT",
+        "cpu": "AMD Ryzen 7 7700X",
+        "gpu": "NVIDIA RTX 4070",
+        "ram": "32GB DDR5 6000MHz",
+        "storage": "1TB NVMe SSD",
+        "case": "NZXT H7 Flow",
+        "price": 1499.99,
+        "description": "The NZXT Starter Pro is a beautifully designed gaming PC built around the Ryzen 7 7700X and RTX 4070 in NZXT's iconic H7 Flow case. The 360mm AIO liquid cooler keeps temperatures whisper-quiet while the tempered glass side panel showcases the RGB-lit interior. A perfect balance of performance and aesthetics.",
+        "best_for": [
+            "1440p gaming",
+            "content creation",
+            "aesthetic builds"
+        ],
+        "image": "/src/assets/desktops/dsk-001.jpg"
+    },
+    {
+        "id": "dsk-002",
+        "name": "Corsair Vengeance i7500",
+        "category": "Desktop",
+        "brand": "Corsair",
+        "cpu": "Intel Core i9-14900K",
+        "gpu": "NVIDIA RTX 4090",
+        "ram": "64GB DDR5 6000MHz",
+        "storage": "2TB NVMe SSD",
+        "case": "Corsair iCUE 7000X RGB",
+        "price": 3999.99,
+        "description": "The Corsair Vengeance i7500 is a no-compromise flagship gaming system powered by the Intel Core i9-14900K and RTX 4090. The massive iCUE 7000X RGB case provides exceptional airflow with six 140mm fans, while Corsair's iCUE software unifies RGB lighting across every component for a synchronized light show.",
+        "best_for": [
+            "4K ultra gaming",
+            "3D animation",
+            "streaming powerhouses"
+        ],
+        "image": "/src/assets/desktops/dsk-002.jpg"
+    },
+    {
+        "id": "dsk-003",
+        "name": "Skytech Archangel 3.0",
+        "category": "Desktop",
+        "brand": "Skytech",
+        "cpu": "AMD Ryzen 5 5600X",
+        "gpu": "NVIDIA RTX 3060",
+        "ram": "16GB DDR4 3200MHz",
+        "storage": "500GB NVMe SSD",
+        "case": "Skytech Archangel RGB",
+        "price": 849.99,
+        "description": "The Skytech Archangel 3.0 is a popular entry-level gaming PC that delivers smooth 1080p gameplay at competitive prices. Featuring the Ryzen 5 5600X and RTX 3060, it handles modern titles at high settings effortlessly. The tempered glass chassis with pre-installed RGB fans makes it a visually appealing first gaming PC.",
+        "best_for": [
+            "budget 1080p gaming",
+            "first gaming PC",
+            "casual gamers"
+        ],
+        "image": "/src/assets/desktops/dsk-003.jpg"
+    },
+    {
+        "id": "dsk-004",
+        "name": "Apple Mac Mini M2 Pro",
+        "category": "Desktop",
+        "brand": "Apple",
+        "cpu": "Apple M2 Pro 12-core",
+        "gpu": "M2 Pro 19-core GPU",
+        "ram": "16GB Unified Memory",
+        "storage": "512GB SSD",
+        "case": "Apple Mac Mini",
+        "price": 1299.99,
+        "description": "The Apple Mac Mini with M2 Pro chips an incredible amount of computing power into a tiny 19.7cm x 19.7cm footprint. With up to 3x faster CPU performance than the previous Intel model and three display output support, it's the perfect compact workstation for developers, musicians, and creative professionals in the Apple ecosystem.",
+        "best_for": [
+            "macOS development",
+            "music production",
+            "compact workstations"
+        ],
+        "image": "/src/assets/desktops/dsk-004.jpg"
+    },
+    {
+        "id": "dsk-005",
+        "name": "Alienware Aurora R16",
+        "category": "Desktop",
+        "brand": "Alienware",
+        "cpu": "Intel Core i7-14700F",
+        "gpu": "NVIDIA RTX 4080 Super",
+        "ram": "32GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "case": "Alienware Aurora",
+        "price": 2499.99,
+        "description": "The Alienware Aurora R16 combines science fiction aesthetics with serious performance via its RTX 4080 Super and Core i7-14700F. The redesigned crescent-shaped chassis delivers significantly improved airflow over previous generations, while Alienware Command Center unifies RGB lighting and performance tuning in one powerful application.",
+        "best_for": [
+            "premium gaming",
+            "RGB showpiece builds",
+            "Dell ecosystem users"
+        ],
+        "image": "/src/assets/desktops/dsk-005.jpg"
+    },
+    {
+        "id": "dsk-006",
+        "name": "HP OMEN 45L",
+        "category": "Desktop",
+        "brand": "HP",
+        "cpu": "Intel Core i7-13700K",
+        "gpu": "NVIDIA RTX 4070 Ti",
+        "ram": "32GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "case": "HP OMEN 45L Tower",
+        "price": 1799.99,
+        "description": "The HP OMEN 45L is engineered around a dual-chamber design that physically separates hot components for optimized thermals. The 360mm liquid cooler, RTX 4070 Ti, and tool-free modular chassis make it a premium gaming tower that's as easy to upgrade as it is powerful to game on.",
+        "best_for": [
+            "1440p & 4K gaming",
+            "easy upgrades",
+            "quiet operation"
+        ],
+        "image": "/src/assets/desktops/dsk-006.jpg"
+    },
+    {
+        "id": "dsk-007",
+        "name": "CyberPowerPC Gamer Xtreme",
+        "category": "Desktop",
+        "brand": "CyberPowerPC",
+        "cpu": "Intel Core i5-13600KF",
+        "gpu": "NVIDIA RTX 4060 Ti",
+        "ram": "16GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "case": "CyberPowerPC ATX Tower",
+        "price": 1099.99,
+        "description": "The CyberPowerPC Gamer Xtreme offers mid-range excellence with a Core i5-13600KF and RTX 4060 Ti combination that handles 1440p gaming with ease. The RBG-illuminated tempered glass tower, WiFi 6E, and Windows 11 Home make it a well-rounded, ready-to-play system at a compelling value.",
+        "best_for": [
+            "1080p to 1440p gaming",
+            "value-focused builds",
+            "plug-and-play"
+        ],
+        "image": "/src/assets/desktops/dsk-007.jpg"
+    },
+    {
+        "id": "dsk-008",
+        "name": "Intel NUC 13 Pro",
+        "category": "Desktop",
+        "brand": "Intel",
+        "cpu": "Intel Core i7-1360P",
+        "gpu": "Intel Iris Xe",
+        "ram": "32GB DDR4",
+        "storage": "1TB NVMe SSD",
+        "case": "Intel NUC Mini",
+        "price": 699.99,
+        "description": "The Intel NUC 13 Pro packs a surprisingly capable Core i7 into a palm-sized 4x4 inch chassis, making it the ultimate space-saving desktop for office environments, digital signage, or home theater setups. Thunderbolt 4, WiFi 6E, and dual 4K display support make it an incredibly versatile mini PC despite its diminutive size.",
+        "best_for": [
+            "office HTPC",
+            "space-saving setups",
+            "light workloads"
+        ],
+        "image": "/src/assets/desktops/dsk-008.jpg"
+    },
+    {
+        "id": "dsk-009",
+        "name": "MSI MEG Aegis Ti5",
+        "category": "Desktop",
+        "brand": "MSI",
+        "cpu": "Intel Core i9-13900K",
+        "gpu": "NVIDIA RTX 4080",
+        "ram": "64GB DDR5",
+        "storage": "2TB NVMe SSD + 2TB HDD",
+        "case": "MSI MEG Aegis Ti5",
+        "price": 3499.99,
+        "description": "The MSI MEG Aegis Ti5 is a jaw-dropping gaming monolith featuring an integrated 6-inch touchscreen control panel, motorized RGB lighting pendulums, and exceptional RTX 4080 + Core i9 performance. Its unique design and MSI Center software make it a conversation-starting centerpiece for any hardcore gaming battlestation.",
+        "best_for": [
+            "extreme gaming",
+            "showpiece battlestations",
+            "enthusiast collectors"
+        ],
+        "image": "/src/assets/desktops/dsk-009.jpg"
+    },
+    {
+        "id": "dsk-010",
+        "name": "Yeyian Yumi Gaming PC",
+        "category": "Desktop",
+        "brand": "Yeyian",
+        "cpu": "AMD Ryzen 5 7600",
+        "gpu": "AMD Radeon RX 7600",
+        "ram": "16GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "case": "Yeyian ATX Mid Tower",
+        "price": 799.99,
+        "description": "The Yeyian Yumi is a budget-friendly AMD-powered gaming desktop that delivers solid 1080p performance with the Ryzen 5 7600 and RX 7600. Its tempered glass side panel, pre-installed RGB fans, and full PCIe 5.0 support for future upgrades make it an excellent starting point for PC gaming without breaking the bank.",
+        "best_for": [
+            "budget PC gaming",
+            "first AMD builds",
+            "upgrader-friendly platforms"
+        ],
+        "image": "/src/assets/desktops/dsk-010.jpg"
+    }
+]

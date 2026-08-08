@@ -1,0 +1,192 @@
+[
+    {
+        "id": "lap-001",
+        "name": "ASUS ROG Zephyrus G14",
+        "category": "Laptop",
+        "brand": "ASUS ROG",
+        "cpu": "AMD Ryzen 9 7940HS",
+        "gpu": "NVIDIA RTX 4060",
+        "ram": "16GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "display": "14\" QHD+ 165Hz",
+        "price": 1299.99,
+        "description": "The ASUS ROG Zephyrus G14 is a powerhouse ultraportable gaming laptop combining AMD's Ryzen 9 with RTX 4060 graphics in a 1.65kg chassis. The QHD+ 165Hz display delivers stunning visuals while the 76Wh battery provides all-day endurance for both gaming and productivity.",
+        "best_for": [
+            "portable gaming",
+            "content creation",
+            "students"
+        ],
+        "image": "/src/assets/laptops/lap-001.jpg"
+    },
+    {
+        "id": "lap-002",
+        "name": "Dell XPS 15",
+        "category": "Laptop",
+        "brand": "Dell",
+        "cpu": "Intel Core i7-13700H",
+        "gpu": "NVIDIA RTX 4060",
+        "ram": "16GB DDR5",
+        "storage": "512GB NVMe SSD",
+        "display": "15.6\" OLED 3.5K 60Hz",
+        "price": 1499.99,
+        "description": "The Dell XPS 15 blends premium craftsmanship with professional performance. Its stunning 3.5K OLED InfinityEdge display covers 100% DCI-P3 for vibrant, accurate colors. The compact design, CNC-machined aluminum chassis, and Thunderbolt 4 ports make it a top pick for professionals and creatives.",
+        "best_for": [
+            "professional work",
+            "photo & video editing",
+            "business travel"
+        ],
+        "image": "/src/assets/laptops/lap-002.jpg"
+    },
+    {
+        "id": "lap-003",
+        "name": "MacBook Pro 14-inch M3",
+        "category": "Laptop",
+        "brand": "Apple",
+        "cpu": "Apple M3 Pro",
+        "gpu": "M3 Pro 18-core GPU",
+        "ram": "18GB Unified Memory",
+        "storage": "512GB SSD",
+        "display": "14.2\" Liquid Retina XDR",
+        "price": 1999.99,
+        "description": "The MacBook Pro 14-inch with M3 Pro chip delivers extraordinary performance for demanding workflows. Its Liquid Retina XDR ProMotion display, up to 22 hours of battery life, and a trio of Thunderbolt 4 ports make it the definitive professional portable for macOS power users.",
+        "best_for": [
+            "software development",
+            "music production",
+            "video editing"
+        ],
+        "image": "/src/assets/laptops/lap-003.jpg"
+    },
+    {
+        "id": "lap-004",
+        "name": "Lenovo ThinkPad X1 Carb Gen 1on1",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "cpu": "Intel Core i7-1365U",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB LPDDR5",
+        "storage": "512GB NVMe SSD",
+        "display": "14\" IPS 2.8K 90Hz",
+        "price": 1349.99,
+        "description": "The ThinkPad X1 Carbon Gen 11 is the gold standard of business ultrabooks — weighing just 1.12kg with a MIL-SPEC-tested chassis. Intel's latest Evo platform, 2.8K IPS display, and legendary ThinkPad keyboard make it the top choice for enterprise users who demand reliability on the road.",
+        "best_for": [
+            "business travel",
+            "enterprise productivity",
+            "long battery life"
+        ],
+        "image": "/src/assets/laptops/lap-004.jpg"
+    },
+    {
+        "id": "lap-005",
+        "name": "Razer Blade 15",
+        "category": "Laptop",
+        "brand": "Razer",
+        "cpu": "Intel Core i7-13800H",
+        "gpu": "NVIDIA RTX 4070",
+        "ram": "16GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "display": "15.6\" QHD 240Hz",
+        "price": 1999.99,
+        "description": "The Razer Blade 15 sets the benchmark for premium gaming laptops with CNC-machined aluminum unibody construction, an RTX 4070, and a blazing 240Hz QHD display. Vapour chamber cooling keeps thermals in check even during the most demanding gaming sessions.",
+        "best_for": [
+            "high-performance gaming",
+            "streaming",
+            "premium aesthetics"
+        ],
+        "image": "/src/assets/laptops/lap-005.jpg"
+    },
+    {
+        "id": "lap-006",
+        "name": "HP Spectre x360 14",
+        "category": "Laptop",
+        "brand": "HP",
+        "cpu": "Intel Core Ultra 7",
+        "gpu": "Intel Arc",
+        "ram": "16GB LPDDR5",
+        "storage": "1TB NVMe SSD",
+        "display": "14\" OLED 2.8K AMOLED Touch",
+        "price": 1249.99,
+        "description": "The HP Spectre x360 14 is a stunning 2-in-1 convertible featuring an OLED AMOLED touchscreen, 17-hour battery life, and Intel's AI-powered Core Ultra chip. The gem-cut chassis design and included stylus make it perfect for creatives who need versatility in a premium package.",
+        "best_for": [
+            "2-in-1 versatility",
+            "digital artists",
+            "everyday use"
+        ],
+        "image": "/src/assets/laptops/lap-006.jpg"
+    },
+    {
+        "id": "lap-007",
+        "name": "Acer Predator Helios 16",
+        "category": "Laptop",
+        "brand": "Acer",
+        "cpu": "Intel Core i9-13900HX",
+        "gpu": "NVIDIA RTX 4080",
+        "ram": "32GB DDR5",
+        "storage": "2TB NVMe SSD",
+        "display": "16\" QHD+ 240Hz Mini LED",
+        "price": 2199.99,
+        "description": "The Acer Predator Helios 16 unleashes desktop-grade power with an RTX 4080 and Core i9-13900HX. Its Mini LED display delivers exceptional brightness and contrast, while the 5th-gen AeroBlade triple-fan cooling system maintains peak performance in extended gaming marathons.",
+        "best_for": [
+            "AAA gaming",
+            "3D rendering",
+            "high-end workloads"
+        ],
+        "image": "/src/assets/laptops/lap-007.jpg"
+    },
+    {
+        "id": "lap-008",
+        "name": "Microsoft Surface Laptop 5",
+        "category": "Laptop",
+        "brand": "Microsoft",
+        "cpu": "Intel Core i5-1245U",
+        "gpu": "Intel Iris Xe",
+        "ram": "8GB LPDDR5",
+        "storage": "256GB SSD",
+        "display": "13.5\" PixelSense 2256x1504",
+        "price": 799.99,
+        "description": "The Microsoft Surface Laptop 5 offers a refined, minimalist design with an Alcantara keyboard deck, vibrant PixelSense display, and Windows 11's best-in-class integration. It's the ideal everyday laptop for students and professionals who value elegance and simplicity over raw power.",
+        "best_for": [
+            "students",
+            "everyday productivity",
+            "Microsoft ecosystem"
+        ],
+        "image": "/src/assets/laptops/lap-008.jpg"
+    },
+    {
+        "id": "lap-009",
+        "name": "ASUS TUF Gaming A15",
+        "category": "Laptop",
+        "brand": "ASUS",
+        "cpu": "AMD Ryzen 7 7745HX",
+        "gpu": "NVIDIA RTX 4060",
+        "ram": "16GB DDR5",
+        "storage": "512GB NVMe SSD",
+        "display": "15.6\" FHD 144Hz",
+        "price": 849.99,
+        "description": "The ASUS TUF Gaming A15 punches well above its price point with a military-grade MIL-STD-810H tested chassis, RTX 4060 graphics, and a 90Wh battery. The self-cleaning thermal system and anti-dust tunnels keep it cool and reliable for years of heavy gaming and study sessions.",
+        "best_for": [
+            "budget gaming",
+            "durability",
+            "long-lasting battery"
+        ],
+        "image": "/src/assets/laptops/lap-009.jpg"
+    },
+    {
+        "id": "lap-010",
+        "name": "LG Gram 17",
+        "category": "Laptop",
+        "brand": "LG",
+        "cpu": "Intel Core i7-1360P",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB LPDDR5",
+        "storage": "512GB NVMe SSD",
+        "display": "17\" WQXGA IPS Anti-Glare",
+        "price": 1099.99,
+        "description": "The LG Gram 17 defies physics by fitting a 17-inch WQXGA display into a 1.35kg body built to MIL-SPEC-810H standards. With 80Wh battery life exceeding 19 hours and Intel EVO certification, it's the definitive laptop for users who need a large screen without compromising portability.",
+        "best_for": [
+            "large-screen productivity",
+            "ultra-portable professionals",
+            "all-day battery"
+        ],
+        "image": "/src/assets/laptops/lap-010.jpg"
+    }
+]

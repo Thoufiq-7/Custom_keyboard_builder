@@ -19,7 +19,7 @@ const CATEGORY_META = {
         icon: '⌨️',
     },
     Mouse: {
-        title: 'Mice',
+        title: 'Mouse',
         subtitle: 'Precision gaming and productivity mice',
         gradient: 'from-emerald-500 to-teal-500',
         icon: '🖱️',
@@ -35,6 +35,24 @@ const CATEGORY_META = {
         subtitle: 'Custom coiled cables for your perfect setup',
         gradient: 'from-rose-500 to-pink-500',
         icon: '🔌',
+    },
+    Laptop: {
+        title: 'Laptops',
+        subtitle: 'Powerful portable laptops for gaming and productivity',
+        gradient: 'from-sky-500 to-cyan-500',
+        icon: '💻',
+    },
+    Monitor: {
+        title: 'Monitors',
+        subtitle: 'Stunning displays for gaming and professional work',
+        gradient: 'from-indigo-500 to-violet-500',
+        icon: '🖥️',
+    },
+    Desktop: {
+        title: 'Desktops',
+        subtitle: 'High-performance desktop PCs for every use case',
+        gradient: 'from-orange-500 to-red-500',
+        icon: '🗖',
     },
 };
 

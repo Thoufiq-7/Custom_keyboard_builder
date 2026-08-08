@@ -9,6 +9,9 @@ import KeyboardsPage from './Pages/KeyboardsPage';
 import MousePage from './Pages/MousePage';
 import DesktopMatsPage from './Pages/DesktopMatsPage';
 import CablesPage from './Pages/CablesPage';
+import LaptopPage from './Pages/LaptopPage';
+import MonitorPage from './Pages/MonitorPage';
+import DesktopPage from './Pages/DesktopPage';
 
 function AppContent() {
   const { cart } = useContext(CartContext);
@@ -25,6 +28,9 @@ function AppContent() {
         <Route path="/mouse" element={<MousePage />} />
         <Route path="/desktop_mats" element={<DesktopMatsPage />} />
         <Route path="/cables" element={<CablesPage />} />
+        <Route path="/laptops" element={<LaptopPage />} />
+        <Route path="/monitors" element={<MonitorPage />} />
+        <Route path="/desktops" element={<DesktopPage />} />
       </Routes>
 
       <ChatAssistant />

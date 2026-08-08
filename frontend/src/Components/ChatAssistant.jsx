@@ -156,7 +156,7 @@ export default function ChatAssistant() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         onClick={() => setIsOpen(true)}
-        className={`fixed bottom-6 right-6 p-4 rounded-full bg-violet-600 text-white shadow-lg shadow-violet-500/30 z-50 ${isOpen ? 'hidden' : 'block'}`}
+        className={`fixed bottom-4 right-4 sm:bottom-6 sm:right-6 p-4 rounded-full bg-violet-600 text-white shadow-lg shadow-violet-500/30 z-50 ${isOpen ? 'hidden' : 'block'}`}
       >
         <MessageCircle className="w-6 h-6" />
       </motion.button>
@@ -167,7 +167,7 @@ export default function ChatAssistant() {
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="fixed bottom-6 right-6 w-[400px] h-[620px] bg-[#111827]/90 backdrop-blur-xl border border-white/10 rounded-[24px] shadow-2xl flex flex-col overflow-hidden z-50"
+            className="fixed bottom-4 right-2 left-2 sm:left-auto sm:bottom-6 sm:right-6 sm:w-[400px] h-[85vh] sm:h-[620px] bg-[#111827]/90 backdrop-blur-xl border border-white/10 rounded-[24px] shadow-2xl flex flex-col overflow-hidden z-50"
           >
             {/* Header */}
             <div className="p-4 border-b border-white/10 flex justify-between items-center bg-white/5">

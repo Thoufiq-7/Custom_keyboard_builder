@@ -3,7 +3,8 @@ from flask_cors import CORS
 import json
 import re
 import numpy as np
-from sentence_transformers import SentenceTransformer
+import requests
+import time
 from groq import Groq
 import os
 from dotenv import load_dotenv
@@ -47,9 +48,35 @@ for category_key, filename in DATA_FILES.items():
 
 print(f"Total products loaded: {len(all_products)}")
 
-# ─── BUILD EMBEDDINGS ────────────────────────────────────────────────────────
-print("Loading Sentence Transformer Model (takes a few seconds)...")
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
+# ─── BUILD EMBEDDINGS VIA HUGGINGFACE API ────────────────────────────────────
+def get_hf_embeddings(texts, max_retries=3):
+    """Fetch embeddings from HuggingFace Inference API with retry logic for cold starts."""
+    hf_token = os.environ.get("HF_TOKEN")
+    if not hf_token:
+        print("WARNING: HF_TOKEN environment variable not set. Embeddings will fail.")
+        return np.zeros((len(texts), 384)) # Fallback dummy embeddings
+
+    api_url = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
+    headers = {"Authorization": f"Bearer {hf_token}"}
+
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(api_url, headers=headers, json={"inputs": texts, "options": {"wait_for_model": True}})
+            if response.status_code == 200:
+                return np.array(response.json())
+            elif response.status_code == 503:
+                print(f"HF API Cold Start (503). Retrying in 10s... (Attempt {attempt+1}/{max_retries})")
+                time.sleep(10)
+            else:
+                print(f"HF API Error: {response.status_code} - {response.text}")
+                break
+        except Exception as e:
+            print(f"HF API Request Failed: {e}")
+            break
+            
+    print("Failed to get embeddings from HF API. Returning empty vectors.")
+    return np.zeros((len(texts), 384))
+
 
 # Build richer searchable text for better RAG retrieval
 def build_search_text(p):
@@ -74,8 +101,22 @@ def build_search_text(p):
         parts.append(f"Material: {p['material']}")
     return " ".join(parts)
 
+
+print("Generating initial product embeddings via HuggingFace API...")
 product_texts = [build_search_text(p) for p in all_products]
-product_vectors = embedder.encode(product_texts)
+
+# The public HF API has payload limits, so we batch if necessary. 
+# 70 items is usually fine in one batch for all-MiniLM-L6-v2, but we'll do it in chunks to be safe.
+CHUNKS = 100
+product_vectors = []
+for i in range(0, len(product_texts), CHUNKS):
+    chunk = product_texts[i:i+CHUNKS]
+    vecs = get_hf_embeddings(chunk)
+    if len(product_vectors) == 0:
+        product_vectors = vecs
+    else:
+        product_vectors = np.concatenate((product_vectors, vecs), axis=0)
+
 print("Backend Ready! ✓")
 
 # ─── BUDGET HELPER ───────────────────────────────────────────────────────────
@@ -140,7 +181,7 @@ def chat():
     budget = extract_budget(user_input)
 
     # --- STEP B: VECTOR RETRIEVAL (guaranteed diverse across all categories) ---
-    query_vector = embedder.encode([user_input])
+    query_vector = get_hf_embeddings([user_input])
     similarities = np.dot(product_vectors, query_vector.T).squeeze()
 
     if similarities.ndim == 0:
